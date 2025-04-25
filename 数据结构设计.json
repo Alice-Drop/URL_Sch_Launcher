@@ -1,0 +1,9 @@
+{
+    "App名称":{
+        "app_tags": [],
+	"app_icon": "",
+	"pages": [
+		"page1": "",
+	]
+    }
+}
