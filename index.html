@@ -7,21 +7,98 @@
     <script src="./script/url_schemes.js"></script>
     <script src="./script/data_url_schemes.js"></script>
 
-    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="./style/app_item.css">
 
+    <script src="/script/data_url_schemes.js"></script>
+    <script src="/script/index.js"></script>
+    <script src="/script/app_item.js"></script>
+    <script src="/script/search.js"></script>
+    <script src="/script/search_cache.js"></script>
 </head>
 <body>
     <div id="content">
-        <div id="nav"></div>
+
         <div id="main_content">
-            <div id="search">
-                <input type="text" id="txt_search_word">
-                <button id="btn_search" class="elegant_btn" onclick="load_items()">搜索</button>
+            <div id="nav">
+
+                <span class="nav_row" id="project_title">
+                    <img id="project_icon" src="./img/default_icon.png" alt="icon" height="50px" >
+                    <span>URL Scheme 快捷启动应用</span>
+                </span>
+
+                <div id="search" class="nav_row">
+                    <input type="text" id="txt_search_word">
+                    <button id="btn_search" class="" onclick="load_items()">
+                        <img src="./img/search1.png" height="30px" >
+                    </button>
+                </div>
+
             </div>
 
-            <table id="result_shelf"></table>
+
+            <div id="result_container">
+
+            <div class="app_item">
+                <div class="app_item_title_placer">
+                    <img src="./app_icon/zhifubao.png" alt="app_icon" class="app_icon"/>
+                    <div style="display: inline-flex;flex-direction: column;justify-content: center">
+                        <span class="app_title">支付宝</span>
+                        <span class="tags_holder"></span>
+                    </div>
+                </div>
+
+                <div class="pages_container">
+                    <!--<table class="page_item">
+                        <tr class="url_content">
+                            <td>
+                                <span class="page_title">支付宝</span>
+                            </td>
+                            <td colspan="2">
+                                <span class="page_info"  >alipay://</span>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td >
 
 
+                            </td>
+                            <td class="item_btns_container">
+                                <button class="btn_create_shortcut elegant_btn">
+                                    <span>创建快捷指令</span>
+                                    <img src="./img/shortcut.svg" alt="">
+                                </button>
+
+                                <button class="btn_open_url elegant_btn">
+                                    <img src="./img/start_v2.svg" alt="">
+                                    <span>启动</span>
+                                </button>
+                            </td>
+                        </tr>
+
+                    </table>
+                    -->
+                    <div class="page_item">
+                        <div class="page_info">
+                            <div class="page_title">支付宝</div>
+                            <div class="page_url_content">alipay://</div>
+                        </div>
+                        <div class="url_btn_group">
+                            <button class="btn_create_shortcut elegant_btn">
+                                <span>添加到快捷指令</span>
+                                <img src="./img/shortcut.svg">
+                            </button>
+                            <button class="btn_open_url elegant_btn">
+                                <img src="/img/start_v2.svg">
+                                <span>启动</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
 
         </div>
     </div>

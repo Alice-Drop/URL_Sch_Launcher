@@ -1,0 +1,108 @@
+img{
+    vertical-align: middle;
+}
+
+/* ======  基础布局  ====== */
+
+#content{
+    margin: 0 auto;
+
+    min-width: 20vw;
+    max-width: 500px;
+
+    height: 98vh;
+    border: 1px dotted black;
+
+    position: relative;
+}
+
+#nav{
+    text-align: left;
+    background-color: #2A82E4;
+    padding: 15px 0;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.nav_row{
+    display:block;
+    /*width:80%; 不强制指定宽度了，因为各个不同，但是是依赖宽度的必须自己实现*/
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+#project_title{
+    font-size: 20px;
+    font-weight: bold;
+    width: 90%;
+    user-select: none;
+}
+
+#project_title span{
+    margin: 0 10px;
+}
+
+#project_icon{
+    height: 40px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+/* 搜索框相关 */
+#search{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 60%;
+
+    background-color: #fff;
+
+    text-align: center;
+    vertical-align: middle;
+
+    padding: 2px 10px;
+}
+
+#txt_search_word{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+    height: 30px;
+    
+    
+
+}
+
+#btn_search{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+/*  基础控件 */
+
+.elegant_btn{
+    max-height: 25px;
+    height: 25px;
+    border-radius: 5px;
+
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+    margin: 0 5px;
+}
+
+
+/* 盛放搜索结果，也就是所有app */
+.result_container{
+    padding: 5%;
+}

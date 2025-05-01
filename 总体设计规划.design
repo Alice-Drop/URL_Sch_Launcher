@@ -1,0 +1,26 @@
+### 页面设计：
+最外层是content，包裹网页所有内容，起到适应变形的作用
+然后是nav
+main_content就是主内容
+
+
+### 单元设计：
+放在result_shelf里面，这是一个table，使用来自之前shelf.js的技术进行动态加载
+！！！但是，现在尝试能不能使用一个div来盛放
+
+#### 每个应用的都是一个app_item（旧称url_sch_item），
+要求：
+提供基础的包裹作用即可，
+然后需要一点padding
+
+##### 里面首先是一个table，来布局按钮、应用标题和标签。
+
+##### 然后是pages_container，一个普通的div，用来放置各个页面和对应的url即下面的page_item
+有padding
+
+###### page_item是一个block元素，这样才会每个挤占一行。
+具体实现方式可以试验一下，看看能不能不用table
+
+里面是page_info显示page的名称和url
+以及url_btn_group盛放按钮。
+

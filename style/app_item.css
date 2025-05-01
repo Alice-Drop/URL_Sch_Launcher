@@ -1,0 +1,160 @@
+/* ===== app_item元素  ==== */
+.app_item{
+
+    opacity: 1;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+
+    padding: 15px;
+
+    transition: height 0.5s ease-in-out;
+}
+
+.app_item.folded .pages_container{
+    display: none !important;
+}
+
+.pages_container{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+/*  标题基础信息  */
+
+.app_icon{
+    height: 50px;
+    border-radius: 10px;
+    display: inline;
+    user-select: none;
+
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+
+    margin-right: 10px;
+}
+
+.app_title{
+    font-weight: bold;
+    user-select: none;
+
+}
+
+.app_item_title_placer{
+    display: flex;
+}
+
+.app_item_title_placer *{
+    user-select: none;
+}
+
+
+
+.pages_container{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/*  === 页面元素 page_item === */
+.page_item{
+    width: 100%;
+
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+
+    margin: 5px 0;
+}
+
+.page_item.folded .url_btn_group{
+    display: none;
+}
+
+
+/* == 页面的url控件，包括了一个标题和一个地址 ==  */
+.page_info{
+    display: flex;
+    align-items: center;
+}
+
+.page_title{
+    display: inline-block;
+    margin: 5px;
+    user-select: none;
+    width: 80px;
+}
+
+.page_url_content{
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+
+    overflow-y: auto;
+}
+
+.page_url_content::selection{
+    background-color: #c0c0c0;
+}
+
+/* == 对页面的url进行操作的按钮组 == */
+.url_btn_group{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    padding: 10px 2px;
+}
+
+/* 各个按钮 */
+
+.btn_create_shortcut{
+    border: 1px solid #A6A6A6;
+    height: 25px;
+}
+
+.btn_create_shortcut *{
+    user-select: none;
+}
+
+.btn_create_shortcut img{
+    height: 20px;
+    margin-left: 5px;
+}
+
+.btn_create_shortcut span{
+    color: #A0A0A0;
+}
+
+
+
+.btn_open_url{
+    background-color: #62CABA;
+    border: 1px solid #62CABA;
+    height: 25px;
+}
+
+.btn_open_url *{
+    user-select: none;
+}
+
+.btn_open_url span{
+    color: white;
+}
+.btn_open_url img{
+    height: 12px;
+    margin-right: 5px;
+}
+
+
+/*   */
+
+
+
+
+
