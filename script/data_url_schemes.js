@@ -1,973 +1,2237 @@
 const URL_SCH_DATA = {
-    "设置": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "短信": "sms://",
-            "AppStore": "itms-apps://",
-            "电话": "tel://",
-            "备忘录": "mobilenotes://",
-            "E-Mail": "MESSAGE://"
+    "app_0": {
+        "name": {
+            "zh-CN": "ios系统基本应用"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "短信"
+                },
+                "page_url": "sms://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "AppStore"
+                },
+                "page_url": "itms-apps://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "电话"
+                },
+                "page_url": "tel://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "备忘录"
+                },
+                "page_url": "mobilenotes://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "E-Mail"
+                },
+                "page_url": "MESSAGE://"
+            }
+        ]
+    },
+    "app_1": {
+        "name": {
+            "zh-CN": "支付宝"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "支付宝"
+                },
+                "page_url": "alipay://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "蚂蚁庄园"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=66666674"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "蚂蚁森林"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=60000002"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "蚂蚁宝卡"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=60000057"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "款码"
+                },
+                "page_url": "alipayqr://platformapi/startapp?saId=20000056"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "扫码"
+                },
+                "page_url": "alipays://platformapi/startapp?saId=10000007"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "红包"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=88886666"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "股票"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000134"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "生活缴费"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000193"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "手机充值"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=10000003"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "彩票"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=10000011"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "淘票票"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000131"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "查快递"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000754"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "AA收款"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000263"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "收款"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000123"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "转账"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=20000221"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "还信用卡"
+                },
+                "page_url": "alipays://platformapi/startapp?appId=09999999"
+            }
+        ]
+    },
+    "app_2": {
+        "name": {
+            "zh-CN": "钉钉"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "钉钉"
+                },
+                "page_url": "dingtalk://"
+            }
+        ]
+    },
+    "app_3": {
+        "name": {
+            "zh-CN": "淘宝"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "淘宝网"
+                },
+                "page_url": "taobao://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "淘宝旅行"
+                },
+                "page_url": "taobaotravel://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "淘宝宝贝搜索"
+                },
+                "page_url": "taobao://http://s.taobao.com/?q=：prompt"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "淘宝店铺搜索"
+                },
+                "page_url": "taobao://http://shopsearch.taobao.com/browse/shop_search.htm?q=：prompt"
+            }
+        ]
+    },
+    "app_4": {
+        "name": {
+            "zh-CN": "天猫"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天猫"
+                },
+                "page_url": "tmall://"
+            }
+        ]
+    },
+    "app_5": {
+        "name": {
+            "zh-CN": "QQ"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "QQ"
+                },
+                "page_url": "mqq://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "QQ群组"
+                },
+                "page_url": "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin={QQ群号}"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "QQ联系人"
+                },
+                "page_url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin={QQ号码}"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "QQ国际版"
+                },
+                "page_url": "mqqiapi://"
+            }
+        ]
+    },
+    "app_6": {
+        "name": {
+            "zh-CN": "QQ音乐"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "QQ音乐"
+                },
+                "page_url": "qqmusic://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "QQ音乐最近播放"
+                },
+                "page_url": "qqmusic://today?mid=31&k1=2&k4=0"
+            }
+        ]
+    },
+    "app_7": {
+        "name": {
+            "zh-CN": "QQ浏览器"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "QQ浏览器"
+                },
+                "page_url": "mttbrowser://"
+            }
+        ]
+    },
+    "app_8": {
+        "name": {
+            "zh-CN": "QQ邮箱"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "QQ邮箱"
+                },
+                "page_url": "qqmail://"
+            }
+        ]
+    },
+    "app_9": {
+        "name": {
+            "zh-CN": "腾讯企业邮箱"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯企业邮箱"
+                },
+                "page_url": "qqbizmailDistribute2://"
+            }
+        ]
+    },
+    "app_10": {
+        "name": {
+            "zh-CN": "腾讯视频"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯视频"
+                },
+                "page_url": "tenvideo://"
+            }
+        ]
+    },
+    "app_11": {
+        "name": {
+            "zh-CN": "腾讯新闻"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯新闻"
+                },
+                "page_url": "qqnews://"
+            }
+        ]
+    },
+    "app_12": {
+        "name": {
+            "zh-CN": "腾讯微云"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯微云"
+                },
+                "page_url": "weiyun://"
+            }
+        ]
+    },
+    "app_13": {
+        "name": {
+            "zh-CN": "腾讯地图"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯地图"
+                },
+                "page_url": "sosomap://"
+            }
+        ]
+    },
+    "app_14": {
+        "name": {
+            "zh-CN": "QQ斗地主"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "QQ斗地主"
+                },
+                "page_url": "tencent382://"
+            }
+        ]
+    },
+    "app_15": {
+        "name": {
+            "zh-CN": "QQ安全中心"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "QQ安全中心"
+                },
+                "page_url": "qmtoken://"
+            }
+        ]
+    },
+    "app_16": {
+        "name": {
+            "zh-CN": "腾讯手机管家"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯手机管家"
+                },
+                "page_url": "mqqsecure://"
+            }
+        ]
+    },
+    "app_17": {
+        "name": {
+            "zh-CN": "腾讯微博"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "腾讯微博"
+                },
+                "page_url": "TencentWeibo://"
+            }
+        ]
+    },
+    "app_18": {
+        "name": {
+            "zh-CN": "天天星连萌"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天天星连萌"
+                },
+                "page_url": "tencent100689806://"
+            }
+        ]
+    },
+    "app_19": {
+        "name": {
+            "zh-CN": "天天爱消除"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天天爱消除"
+                },
+                "page_url": "tencent100689805://"
+            }
+        ]
+    },
+    "app_20": {
+        "name": {
+            "zh-CN": "天天酷跑"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天天酷跑"
+                },
+                "page_url": "tencent100692648://"
+            }
+        ]
+    },
+    "app_21": {
+        "name": {
+            "zh-CN": "天天飞车"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天天飞车"
+                },
+                "page_url": "tencent100695850://"
+            }
+        ]
+    },
+    "app_22": {
+        "name": {
+            "zh-CN": "节奏大师"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "节奏大师"
+                },
+                "page_url": "tencentrm://"
+            }
+        ]
+    },
+    "app_23": {
+        "name": {
+            "zh-CN": "微信"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "微信"
+                },
+                "page_url": "wechat://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-扫一扫"
+                },
+                "page_url": "weixin://dl/scan"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-反馈"
+                },
+                "page_url": "weixin://dl/feedback"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-朋友圈"
+                },
+                "page_url": "weixin://dl/moments"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-设置"
+                },
+                "page_url": "weixin://dl/settings"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-消息通知设置"
+                },
+                "page_url": "weixin://dl/notifications"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-聊天设置"
+                },
+                "page_url": "weixin://dl/chat"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-通用设置"
+                },
+                "page_url": "weixin://dl/general"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-公众号"
+                },
+                "page_url": "weixin://dl/officialaccounts"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-游戏"
+                },
+                "page_url": "weixin://dl/games"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-帮助"
+                },
+                "page_url": "weixin://dl/help"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-个人信息"
+                },
+                "page_url": "weixin://dl/profile"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "微信-功能插件"
+                },
+                "page_url": "weixin://dl/features"
+            }
+        ]
+    },
+    "app_24": {
+        "name": {
+            "zh-CN": "百度"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度"
+                },
+                "page_url": "baiduboxapp://"
+            }
+        ]
+    },
+    "app_25": {
+        "name": {
+            "zh-CN": "百度地图"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度地图"
+                },
+                "page_url": "baidumap://"
+            }
+        ]
+    },
+    "app_26": {
+        "name": {
+            "zh-CN": "百度贴吧"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度贴吧"
+                },
+                "page_url": "com.baidu.tieba://"
+            }
+        ]
+    },
+    "app_27": {
+        "name": {
+            "zh-CN": "百度云"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度云"
+                },
+                "page_url": "baiduyun://"
+            }
+        ]
+    },
+    "app_28": {
+        "name": {
+            "zh-CN": "百度音乐"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度音乐"
+                },
+                "page_url": "baidumusic://"
+            }
+        ]
+    },
+    "app_29": {
+        "name": {
+            "zh-CN": "百度视频"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度视频"
+                },
+                "page_url": "baiduvideoiphone://"
+            }
+        ]
+    },
+    "app_30": {
+        "name": {
+            "zh-CN": "百度糯米"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度糯米"
+                },
+                "page_url": "bainuo://"
+            }
+        ]
+    },
+    "app_31": {
+        "name": {
+            "zh-CN": "百度魔图"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度魔图"
+                },
+                "page_url": "photowonder://"
+            }
+        ]
+    },
+    "app_32": {
+        "name": {
+            "zh-CN": "百度魔拍"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度魔拍"
+                },
+                "page_url": "wondercamera://"
+            }
+        ]
+    },
+    "app_33": {
+        "name": {
+            "zh-CN": "百度导航"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度导航"
+                },
+                "page_url": "bdNavi://"
+            }
+        ]
+    },
+    "app_34": {
+        "name": {
+            "zh-CN": "百度输入法"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "百度输入法"
+                },
+                "page_url": "BaiduIMShop://"
+            }
+        ]
+    },
+    "app_35": {
+        "name": {
+            "zh-CN": "网易邮箱"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "网易邮箱"
+                },
+                "page_url": "neteasemail://"
+            }
+        ]
+    },
+    "app_36": {
+        "name": {
+            "zh-CN": "网易新闻"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "网易新闻"
+                },
+                "page_url": "newsapp://"
+            }
+        ]
+    },
+    "app_37": {
+        "name": {
+            "zh-CN": "网易云音乐"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "网易云音乐"
+                },
+                "page_url": "orpheuswidget://"
+            }
+        ]
+    },
+    "app_38": {
+        "name": {
+            "zh-CN": "有道词典"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "有道词典"
+                },
+                "page_url": "yddict://或yddictproapp://"
+            }
+        ]
+    },
+    "app_39": {
+        "name": {
+            "zh-CN": "有道云笔记"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "有道云笔记"
+                },
+                "page_url": "youdaonote://"
+            }
+        ]
+    },
+    "app_40": {
+        "name": {
+            "zh-CN": "网易公开课"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "网易公开课"
+                },
+                "page_url": "ntesopen://"
+            }
+        ]
+    },
+    "app_41": {
+        "name": {
+            "zh-CN": "网易将军令"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "网易将军令"
+                },
+                "page_url": "netease-mkey://"
+            }
+        ]
+    },
+    "app_42": {
+        "name": {
+            "zh-CN": "美团"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "美团外卖"
+                },
+                "page_url": "meituanwaimai://"
+            },
+            {
+                "page_name": {
+                    "zh-CN": "美团"
+                },
+                "page_url": "imeituan://"
+            }
+        ]
+    },
+    "app_43": {
+        "name": {
+            "zh-CN": "点评"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "点评"
+                },
+                "page_url": "dianping://或dianping://search"
+            }
+        ]
+    },
+    "app_44": {
+        "name": {
+            "zh-CN": "12306"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "12306"
+                },
+                "page_url": "cn.12306://"
+            }
+        ]
+    },
+    "app_45": {
+        "name": {
+            "zh-CN": "京东"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "京东"
+                },
+                "page_url": "openApp.jdMobile://或jd://"
+            }
+        ]
+    },
+    "app_46": {
+        "name": {
+            "zh-CN": "今日头条"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "今日头条"
+                },
+                "page_url": "snssdk141://"
+            }
+        ]
+    },
+    "app_47": {
+        "name": {
+            "zh-CN": "高德地图"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "高德地图"
+                },
+                "page_url": "iosamap://"
+            }
+        ]
+    },
+    "app_48": {
+        "name": {
+            "zh-CN": "新浪微博"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "新浪微博"
+                },
+                "page_url": "weibo://"
+            }
+        ]
+    },
+    "app_49": {
+        "name": {
+            "zh-CN": "微博国际版"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "微博国际版"
+                },
+                "page_url": "weibointernational://"
+            }
+        ]
+    },
+    "app_50": {
+        "name": {
+            "zh-CN": "优酷"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "优酷"
+                },
+                "page_url": "youku://"
+            }
+        ]
+    },
+    "app_51": {
+        "name": {
+            "zh-CN": "爱奇艺"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "爱奇艺"
+                },
+                "page_url": "iqiyi://或qiyi-iphone://"
+            }
+        ]
+    },
+    "app_52": {
+        "name": {
+            "zh-CN": "爱奇艺PPS"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "爱奇艺PPS"
+                },
+                "page_url": "ppstream://"
+            }
+        ]
+    },
+    "app_53": {
+        "name": {
+            "zh-CN": "土豆视频"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "土豆视频"
+                },
+                "page_url": "tudou://"
+            }
+        ]
+    },
+    "app_54": {
+        "name": {
+            "zh-CN": "PPTV"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "PPTV"
+                },
+                "page_url": "pptv://"
+            }
+        ]
+    },
+    "app_55": {
+        "name": {
+            "zh-CN": "暴风影音"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "暴风影音"
+                },
+                "page_url": "com.baofeng.play://"
+            }
+        ]
+    },
+    "app_56": {
+        "name": {
+            "zh-CN": "搜狐视频"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "搜狐视频"
+                },
+                "page_url": "sohuvideo-iphone://"
+            }
+        ]
+    },
+    "app_57": {
+        "name": {
+            "zh-CN": "搜狐新闻"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "搜狐新闻"
+                },
+                "page_url": "sohunews://"
+            }
+        ]
+    },
+    "app_58": {
+        "name": {
+            "zh-CN": "虾米音乐"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "虾米音乐"
+                },
+                "page_url": "xiami://"
+            }
+        ]
+    },
+    "app_59": {
+        "name": {
+            "zh-CN": "酷我音乐"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "酷我音乐"
+                },
+                "page_url": "com.kuwo.kwmusic.kwmusicForKwsing://"
+            }
+        ]
+    },
+    "app_60": {
+        "name": {
+            "zh-CN": "酷狗音乐"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "酷狗音乐"
+                },
+                "page_url": "kugouURL://"
+            }
+        ]
+    },
+    "app_61": {
+        "name": {
+            "zh-CN": "天天动听"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天天动听"
+                },
+                "page_url": "ttpod://"
+            }
+        ]
+    },
+    "app_62": {
+        "name": {
+            "zh-CN": "摩拜单车"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "摩拜单车"
+                },
+                "page_url": "mobike://"
+            }
+        ]
+    },
+    "app_63": {
+        "name": {
+            "zh-CN": "ofo"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "ofo"
+                },
+                "page_url": "ofoapp://"
+            }
+        ]
+    },
+    "app_64": {
+        "name": {
+            "zh-CN": "chrome"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "chrome"
+                },
+                "page_url": "googlechrome://"
+            }
+        ]
+    },
+    "app_65": {
+        "name": {
+            "zh-CN": "Gmail"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "Gmail"
+                },
+                "page_url": "googlegmail://"
+            }
+        ]
+    },
+    "app_66": {
+        "name": {
+            "zh-CN": "印象笔记"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "印象笔记"
+                },
+                "page_url": "evernote://"
+            }
+        ]
+    },
+    "app_67": {
+        "name": {
+            "zh-CN": "挖财记账"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "挖财记账"
+                },
+                "page_url": "wacai://"
+            }
+        ]
+    },
+    "app_68": {
+        "name": {
+            "zh-CN": "猎豹浏览器"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "猎豹浏览器"
+                },
+                "page_url": "sinaweibosso.422729959://"
+            }
+        ]
+    },
+    "app_69": {
+        "name": {
+            "zh-CN": "UC浏览器"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "UC浏览器"
+                },
+                "page_url": "ucbrowser://"
+            }
+        ]
+    },
+    "app_70": {
+        "name": {
+            "zh-CN": "名片全能王"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "名片全能王"
+                },
+                "page_url": "camcard://"
+            }
+        ]
+    },
+    "app_71": {
+        "name": {
+            "zh-CN": "豆瓣fm"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "豆瓣fm"
+                },
+                "page_url": "doubanradio://"
+            }
+        ]
+    },
+    "app_72": {
+        "name": {
+            "zh-CN": "微盘"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "微盘"
+                },
+                "page_url": "sinavdisk://"
+            }
+        ]
+    },
+    "app_73": {
+        "name": {
+            "zh-CN": "人人"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "人人"
+                },
+                "page_url": "renren://"
+            }
+        ]
+    },
+    "app_74": {
+        "name": {
+            "zh-CN": "我查查"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "我查查"
+                },
+                "page_url": "wcc://"
+            }
+        ]
+    },
+    "app_75": {
+        "name": {
+            "zh-CN": "1号店"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "1号店"
+                },
+                "page_url": "wccbyihaodian://"
+            }
+        ]
+    },
+    "app_76": {
+        "name": {
+            "zh-CN": "知乎"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "知乎"
+                },
+                "page_url": "zhihu://"
+            }
+        ]
+    },
+    "app_77": {
+        "name": {
+            "zh-CN": "墨客"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "墨客"
+                },
+                "page_url": "com.moke.moke-1://"
+            }
+        ]
+    },
+    "app_78": {
+        "name": {
+            "zh-CN": "扫描全能王"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "扫描全能王"
+                },
+                "page_url": "camscanner://"
+            }
+        ]
+    },
+    "app_79": {
+        "name": {
+            "zh-CN": "TuneIn"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "TuneIn"
+                },
+                "page_url": "Radio"
+            }
+        ]
+    },
+    "app_80": {
+        "name": {
+            "zh-CN": "OfficeSuite"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "OfficeSuite"
+                },
+                "page_url": "mobisystemsofficesuite://"
+            }
+        ]
+    },
+    "app_81": {
+        "name": {
+            "zh-CN": "WPS"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "WPS"
+                },
+                "page_url": "Office"
+            }
+        ]
+    },
+    "app_82": {
+        "name": {
+            "zh-CN": "Line"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "Line"
+                },
+                "page_url": "line://"
+            }
+        ]
+    },
+    "app_83": {
+        "name": {
+            "zh-CN": "1Password"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "1Password"
+                },
+                "page_url": "onepassword://"
+            }
+        ]
+    },
+    "app_84": {
+        "name": {
+            "zh-CN": "Clear(著名的Todo应用)"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "Clear(著名的Todo应用)"
+                },
+                "page_url": "clearapp://"
+            }
+        ]
+    },
+    "app_85": {
+        "name": {
+            "zh-CN": "Calendars"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "Calendars"
+                },
+                "page_url": "5"
+            }
+        ]
+    },
+    "app_86": {
+        "name": {
+            "zh-CN": "GoodReader"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "GoodReader"
+                },
+                "page_url": "4"
+            }
+        ]
+    },
+    "app_87": {
+        "name": {
+            "zh-CN": "PDF"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "PDF"
+                },
+                "page_url": "Expert"
+            }
+        ]
+    },
+    "app_88": {
+        "name": {
+            "zh-CN": "Documents"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "Documents"
+                },
+                "page_url": "5"
+            }
+        ]
+    },
+    "app_89": {
+        "name": {
+            "zh-CN": "nPlayer"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "nPlayer"
+                },
+                "page_url": "nplayer-http://"
+            }
+        ]
+    },
+    "app_90": {
+        "name": {
+            "zh-CN": "GPlayer"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "GPlayer"
+                },
+                "page_url": "gplayer://"
+            }
+        ]
+    },
+    "app_91": {
+        "name": {
+            "zh-CN": "AVPlayer"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "AVPlayer"
+                },
+                "page_url": "AVPlayer://"
+            }
+        ]
+    },
+    "app_92": {
+        "name": {
+            "zh-CN": "Ace"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "Ace"
+                },
+                "page_url": "Player"
+            }
+        ]
+    },
+    "app_93": {
+        "name": {
+            "zh-CN": "12306订票助手"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "12306订票助手"
+                },
+                "page_url": "trainassist://"
+            }
+        ]
+    },
+    "app_94": {
+        "name": {
+            "zh-CN": "金山词霸"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "金山词霸"
+                },
+                "page_url": "com.kingsoft.powerword.6://"
+            }
+        ]
+    },
+    "app_95": {
+        "name": {
+            "zh-CN": "凤凰新闻"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "凤凰新闻"
+                },
+                "page_url": "comIfeng3GifengNews://"
+            }
+        ]
+    },
+    "app_96": {
+        "name": {
+            "zh-CN": "高铁管家"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "高铁管家"
+                },
+                "page_url": "gtgj://"
+            }
+        ]
+    },
+    "app_97": {
+        "name": {
+            "zh-CN": "飞信"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "飞信"
+                },
+                "page_url": "fetion://"
+            }
+        ]
+    },
+    "app_98": {
+        "name": {
+            "zh-CN": "大智慧"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "大智慧"
+                },
+                "page_url": "dzhiphone://"
+            }
+        ]
+    },
+    "app_99": {
+        "name": {
+            "zh-CN": "布卡漫画"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "布卡漫画"
+                },
+                "page_url": "buka://"
+            }
+        ]
+    },
+    "app_100": {
+        "name": {
+            "zh-CN": "哔哩哔哩动画"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "哔哩哔哩动画"
+                },
+                "page_url": "bilibili://"
+            }
+        ]
+    },
+    "app_101": {
+        "name": {
+            "zh-CN": "56视频"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "56视频"
+                },
+                "page_url": "com.56Video://"
+            }
+        ]
+    },
+    "app_102": {
+        "name": {
+            "zh-CN": "365日历"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "365日历"
+                },
+                "page_url": "rili365://"
+            }
+        ]
+    },
+    "app_103": {
+        "name": {
+            "zh-CN": "58同城"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "58同城"
+                },
+                "page_url": "wbmain://"
+            }
+        ]
+    },
+    "app_104": {
+        "name": {
+            "zh-CN": "遇见"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "遇见"
+                },
+                "page_url": "iaround://"
+            }
+        ]
+    },
+    "app_105": {
+        "name": {
+            "zh-CN": "陌陌"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "陌陌"
+                },
+                "page_url": "momochat://"
+            }
+        ]
+    },
+    "app_106": {
+        "name": {
+            "zh-CN": "旺旺卖家版"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "旺旺卖家版"
+                },
+                "page_url": "wangwangseller://"
+            }
+        ]
+    },
+    "app_107": {
+        "name": {
+            "zh-CN": "掌阅iReader"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "掌阅iReader"
+                },
+                "page_url": "iReader://"
+            }
+        ]
+    },
+    "app_108": {
+        "name": {
+            "zh-CN": "艺龙旅行"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "艺龙旅行"
+                },
+                "page_url": "elongIPhone://"
+            }
+        ]
+    },
+    "app_109": {
+        "name": {
+            "zh-CN": "迅雷+迅雷云播"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "迅雷+迅雷云播"
+                },
+                "page_url": "thunder://"
+            }
+        ]
+    },
+    "app_110": {
+        "name": {
+            "zh-CN": "熊猫公交"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "熊猫公交"
+                },
+                "page_url": "wb1405365637://"
+            }
+        ]
+    },
+    "app_111": {
+        "name": {
+            "zh-CN": "携程无线"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "携程无线"
+                },
+                "page_url": "CtripWireless://"
+            }
+        ]
+    },
+    "app_112": {
+        "name": {
+            "zh-CN": "无线苏州"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "无线苏州"
+                },
+                "page_url": "SuZhouTV://"
+            }
+        ]
+    },
+    "app_113": {
+        "name": {
+            "zh-CN": "唯品会"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "唯品会"
+                },
+                "page_url": "vipshop://"
+            }
+        ]
+    },
+    "app_114": {
+        "name": {
+            "zh-CN": "微视"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "微视"
+                },
+                "page_url": "weishiiosscheme://"
+            }
+        ]
+    },
+    "app_115": {
+        "name": {
+            "zh-CN": "微拍"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "微拍"
+                },
+                "page_url": "wpweipai://"
+            }
+        ]
+    },
+    "app_116": {
+        "name": {
+            "zh-CN": "旺信"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "旺信"
+                },
+                "page_url": "wangxin://"
+            }
+        ]
+    },
+    "app_117": {
+        "name": {
+            "zh-CN": "万年历"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "万年历"
+                },
+                "page_url": "youloft.419805549://"
+            }
+        ]
+    },
+    "app_118": {
+        "name": {
+            "zh-CN": "同花顺"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "同花顺"
+                },
+                "page_url": "amihexin://"
+            }
+        ]
+    },
+    "app_119": {
+        "name": {
+            "zh-CN": "天涯社区"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天涯社区"
+                },
+                "page_url": "tianya://"
+            }
+        ]
+    },
+    "app_120": {
+        "name": {
+            "zh-CN": "天气通Pro"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天气通Pro"
+                },
+                "page_url": "sinaweatherpro://"
+            }
+        ]
+    },
+    "app_121": {
+        "name": {
+            "zh-CN": "天气通"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "天气通"
+                },
+                "page_url": "sinaweather://"
+            }
+        ]
+    },
+    "app_122": {
+        "name": {
+            "zh-CN": "墨迹天气"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "墨迹天气"
+                },
+                "page_url": "rm434209233MojiWeather://"
+            }
+        ]
+    },
+    "app_123": {
+        "name": {
+            "zh-CN": "蜻蜓FM"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "蜻蜓FM"
+                },
+                "page_url": "qtfmp://"
+            }
+        ]
+    },
+    "app_124": {
+        "name": {
+            "zh-CN": "浦发银行"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "浦发银行"
+                },
+                "page_url": "wx1cb534bb13ba3dbd://"
+            }
+        ]
+    },
+    "app_125": {
+        "name": {
+            "zh-CN": "招商银行"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "招商银行"
+                },
+                "page_url": "cmbmobilebank://"
+            }
+        ]
+    },
+    "app_126": {
+        "name": {
+            "zh-CN": "建设银行"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "建设银行"
+                },
+                "page_url": "wx2654d9155d70a468://"
+            }
+        ]
+    },
+    "app_127": {
+        "name": {
+            "zh-CN": "工商银行"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "工商银行"
+                },
+                "page_url": "com.icbc.iphoneclient://"
+            }
+        ]
+    },
+    "app_128": {
+        "name": {
+            "zh-CN": "保卫萝卜2"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "保卫萝卜2"
+                },
+                "page_url": "wb2217954495://"
+            }
+        ]
+    },
+    "app_129": {
+        "name": {
+            "zh-CN": "保卫萝卜"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "保卫萝卜"
+                },
+                "page_url": "wb1308702128://"
+            }
+        ]
+    },
+    "app_130": {
+        "name": {
+            "zh-CN": "搜狗输入法"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "搜狗输入法"
+                },
+                "page_url": "com.sogou.sogouinput://"
+            }
+        ]
+    },
+    "app_131": {
+        "name": {
+            "zh-CN": "随手记"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "随手记"
+                },
+                "page_url": "FDMoney://"
+            }
+        ]
+    },
+    "app_132": {
+        "name": {
+            "zh-CN": "weico微博"
+        },
+        "tags": [],
+        "icon": "",
+        "pages": [
+            {
+                "page_name": {
+                    "zh-CN": "weico微博"
+                },
+                "page_url": "weico://"
+            }
+        ]
     }
-},
-    "支付宝": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "支付宝": "alipay://",
-            "蚂蚁庄园": "alipays://platformapi/startapp?appId=66666674",
-            "蚂蚁森林": "alipays://platformapi/startapp?appId=60000002",
-            "蚂蚁宝卡": "alipays://platformapi/startapp?appId=60000057",
-            "款码": "alipayqr://platformapi/startapp?saId=20000056",
-            "扫码": "alipays://platformapi/startapp?saId=10000007",
-            "红包": "alipays://platformapi/startapp?appId=88886666",
-            "股票": "alipays://platformapi/startapp?appId=20000134",
-            "生活缴费": "alipays://platformapi/startapp?appId=20000193",
-            "手机充值": "alipays://platformapi/startapp?appId=10000003",
-            "彩票": "alipays://platformapi/startapp?appId=10000011",
-            "淘票票": "alipays://platformapi/startapp?appId=20000131",
-            "查快递": "alipays://platformapi/startapp?appId=20000754",
-            "AA收款": "alipays://platformapi/startapp?appId=20000263",
-            "收款": "alipays://platformapi/startapp?appId=20000123",
-            "转账": "alipays://platformapi/startapp?appId=20000221",
-            "还信用卡": "alipays://platformapi/startapp?appId=09999999"
-    }
-},
-    "钉钉": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "钉钉": "dingtalk://"
-    }
-},
-    "淘宝": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "淘宝网": "taobao://",
-            "淘宝旅行": "taobaotravel://",
-            "淘宝宝贝搜索": "taobao://http://s.taobao.com/?q=：prompt",
-            "淘宝店铺搜索": "taobao://http://shopsearch.taobao.com/browse/shop_search.htm?q=：prompt"
-    }
-},
-    "天猫": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天猫": "tmall://"
-    }
-},
-    "QQ": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "QQ": "mqq://",
-            "QQ群组": "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin={QQ群号}",
-            "QQ联系人": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin={QQ号码}",
-            "QQ国际版": "mqqiapi://"
-    }
-},
-    "QQ音乐": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "QQ音乐": "qqmusic://",
-            "QQ音乐最近播放": "qqmusic://today?mid=31&k1=2&k4=0"
-    }
-},
-    "QQ浏览器": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "QQ浏览器": "mttbrowser://"
-    }
-},
-    "QQ邮箱": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "QQ邮箱": "qqmail://"
-    }
-},
-    "腾讯企业邮箱": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯企业邮箱": "qqbizmailDistribute2://"
-    }
-},
-    "腾讯视频": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯视频": "tenvideo://"
-    }
-},
-    "腾讯新闻": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯新闻": "qqnews://"
-    }
-},
-    "腾讯微云": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯微云": "weiyun://"
-    }
-},
-    "腾讯地图": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯地图": "sosomap://"
-    }
-},
-    "QQ斗地主": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "QQ斗地主": "tencent382://"
-    }
-},
-    "QQ安全中心": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "QQ安全中心": "qmtoken://"
-    }
-},
-    "腾讯手机管家": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯手机管家": "mqqsecure://"
-    }
-},
-    "腾讯微博": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "腾讯微博": "TencentWeibo://"
-    }
-},
-    "天天星连萌": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天天星连萌": "tencent100689806://"
-    }
-},
-    "天天爱消除": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天天爱消除": "tencent100689805://"
-    }
-},
-    "天天酷跑": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天天酷跑": "tencent100692648://"
-    }
-},
-    "天天飞车": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天天飞车": "tencent100695850://"
-    }
-},
-    "节奏大师": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "节奏大师": "tencentrm://"
-    }
-},
-    "微信": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "微信": "wechat://",
-            "微信-扫一扫": "weixin://dl/scan",
-            "微信-反馈": "weixin://dl/feedback",
-            "微信-朋友圈": "weixin://dl/moments",
-            "微信-设置": "weixin://dl/settings",
-            "微信-消息通知设置": "weixin://dl/notifications",
-            "微信-聊天设置": "weixin://dl/chat",
-            "微信-通用设置": "weixin://dl/general",
-            "微信-公众号": "weixin://dl/officialaccounts",
-            "微信-游戏": "weixin://dl/games",
-            "微信-帮助": "weixin://dl/help",
-            "微信-个人信息": "weixin://dl/profile",
-            "微信-功能插件": "weixin://dl/features"
-    }
-},
-    "百度": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度": "baiduboxapp://"
-    }
-},
-    "百度地图": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度地图": "baidumap://"
-    }
-},
-    "百度贴吧": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度贴吧": "com.baidu.tieba://"
-    }
-},
-    "百度云": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度云": "baiduyun://"
-    }
-},
-    "百度音乐": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度音乐": "baidumusic://"
-    }
-},
-    "百度视频": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度视频": "baiduvideoiphone://"
-    }
-},
-    "百度糯米": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度糯米": "bainuo://"
-    }
-},
-    "百度魔图": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度魔图": "photowonder://"
-    }
-},
-    "百度魔拍": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度魔拍": "wondercamera://"
-    }
-},
-    "百度导航": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度导航": "bdNavi://"
-    }
-},
-    "百度输入法": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "百度输入法": "BaiduIMShop://"
-    }
-},
-    "网易邮箱": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "网易邮箱": "neteasemail://"
-    }
-},
-    "网易新闻": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "网易新闻": "newsapp://"
-    }
-},
-    "网易云音乐": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "网易云音乐": "orpheuswidget://"
-    }
-},
-    "有道词典": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "有道词典": "yddict://或yddictproapp://"
-    }
-},
-    "有道云笔记": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "有道云笔记": "youdaonote://"
-    }
-},
-    "网易公开课": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "网易公开课": "ntesopen://"
-    }
-},
-    "网易将军令": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "网易将军令": "netease-mkey://"
-    }
-},
-    "美团": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "美团外卖": "meituanwaimai://",
-            "美团": "imeituan://"
-    }
-},
-    "点评": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "点评": "dianping://或dianping://search"
-    }
-},
-    "12306": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "12306": "cn.12306://"
-    }
-},
-    "京东": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "京东": "openApp.jdMobile://或jd://"
-    }
-},
-    "今日头条": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "今日头条": "snssdk141://"
-    }
-},
-    "高德地图": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "高德地图": "iosamap://"
-    }
-},
-    "新浪微博": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "新浪微博": "weibo://"
-    }
-},
-    "微博国际版": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "微博国际版": "weibointernational://"
-    }
-},
-    "优酷": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "优酷": "youku://"
-    }
-},
-    "爱奇艺": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "爱奇艺": "iqiyi://或qiyi-iphone://"
-    }
-},
-    "爱奇艺PPS": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "爱奇艺PPS": "ppstream://"
-    }
-},
-    "土豆视频": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "土豆视频": "tudou://"
-    }
-},
-    "PPTV": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "PPTV": "pptv://"
-    }
-},
-    "暴风影音": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "暴风影音": "com.baofeng.play://"
-    }
-},
-    "搜狐视频": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "搜狐视频": "sohuvideo-iphone://"
-    }
-},
-    "搜狐新闻": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "搜狐新闻": "sohunews://"
-    }
-},
-    "虾米音乐": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "虾米音乐": "xiami://"
-    }
-},
-    "酷我音乐": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "酷我音乐": "com.kuwo.kwmusic.kwmusicForKwsing://"
-    }
-},
-    "酷狗音乐": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "酷狗音乐": "kugouURL://"
-    }
-},
-    "天天动听": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天天动听": "ttpod://"
-    }
-},
-    "摩拜单车": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "摩拜单车": "mobike://"
-    }
-},
-    "ofo": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "ofo": "ofoapp://"
-    }
-},
-    "chrome": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "chrome": "googlechrome://"
-    }
-},
-    "Gmail": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "Gmail": "googlegmail://"
-    }
-},
-    "印象笔记": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "印象笔记": "evernote://"
-    }
-},
-    "挖财记账": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "挖财记账": "wacai://"
-    }
-},
-    "猎豹浏览器": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "猎豹浏览器": "sinaweibosso.422729959://"
-    }
-},
-    "UC浏览器": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "UC浏览器": "ucbrowser://"
-    }
-},
-    "名片全能王": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "名片全能王": "camcard://"
-    }
-},
-    "豆瓣fm": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "豆瓣fm": "doubanradio://"
-    }
-},
-    "微盘": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "微盘": "sinavdisk://"
-    }
-},
-    "人人": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "人人": "renren://"
-    }
-},
-    "我查查": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "我查查": "wcc://"
-    }
-},
-    "1号店": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "1号店": "wccbyihaodian://"
-    }
-},
-    "知乎": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "知乎": "zhihu://"
-    }
-},
-    "墨客": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "墨客": "com.moke.moke-1://"
-    }
-},
-    "扫描全能王": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "扫描全能王": "camscanner://"
-    }
-},
-    "TuneIn": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "TuneIn": "Radio"
-    }
-},
-    "OfficeSuite": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "OfficeSuite": "mobisystemsofficesuite://"
-    }
-},
-    "WPS": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "WPS": "Office"
-    }
-},
-    "Line": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "Line": "line://"
-    }
-},
-    "1Password": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "1Password": "onepassword://"
-    }
-},
-    "Clear(著名的Todo应用)": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "Clear(著名的Todo应用)": "clearapp://"
-    }
-},
-    "Calendars": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "Calendars": "5"
-    }
-},
-    "GoodReader": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "GoodReader": "4"
-    }
-},
-    "PDF": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "PDF": "Expert"
-    }
-},
-    "Documents": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "Documents": "5"
-    }
-},
-    "nPlayer": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "nPlayer": "nplayer-http://"
-    }
-},
-    "GPlayer": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "GPlayer": "gplayer://"
-    }
-},
-    "AVPlayer": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "AVPlayer": "AVPlayer://"
-    }
-},
-    "Ace": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "Ace": "Player"
-    }
-},
-    "12306订票助手": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "12306订票助手": "trainassist://"
-    }
-},
-    "金山词霸": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "金山词霸": "com.kingsoft.powerword.6://"
-    }
-},
-    "凤凰新闻": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "凤凰新闻": "comIfeng3GifengNews://"
-    }
-},
-    "高铁管家": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "高铁管家": "gtgj://"
-    }
-},
-    "飞信": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "飞信": "fetion://"
-    }
-},
-    "大智慧": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "大智慧": "dzhiphone://"
-    }
-},
-    "布卡漫画": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "布卡漫画": "buka://"
-    }
-},
-    "哔哩哔哩动画": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "哔哩哔哩动画": "bilibili://"
-    }
-},
-    "56视频": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "56视频": "com.56Video://"
-    }
-},
-    "365日历": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "365日历": "rili365://"
-    }
-},
-    "58同城": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "58同城": "wbmain://"
-    }
-},
-    "遇见": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "遇见": "iaround://"
-    }
-},
-    "陌陌": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "陌陌": "momochat://"
-    }
-},
-    "旺旺卖家版": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "旺旺卖家版": "wangwangseller://"
-    }
-},
-    "掌阅iReader": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "掌阅iReader": "iReader://"
-    }
-},
-    "艺龙旅行": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "艺龙旅行": "elongIPhone://"
-    }
-},
-    "迅雷+迅雷云播": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "迅雷+迅雷云播": "thunder://"
-    }
-},
-    "熊猫公交": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "熊猫公交": "wb1405365637://"
-    }
-},
-    "携程无线": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "携程无线": "CtripWireless://"
-    }
-},
-    "无线苏州": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "无线苏州": "SuZhouTV://"
-    }
-},
-    "唯品会": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "唯品会": "vipshop://"
-    }
-},
-    "微视": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "微视": "weishiiosscheme://"
-    }
-},
-    "微拍": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "微拍": "wpweipai://"
-    }
-},
-    "旺信": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "旺信": "wangxin://"
-    }
-},
-    "万年历": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "万年历": "youloft.419805549://"
-    }
-},
-    "同花顺": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "同花顺": "amihexin://"
-    }
-},
-    "天涯社区": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天涯社区": "tianya://"
-    }
-},
-    "天气通Pro": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天气通Pro": "sinaweatherpro://"
-    }
-},
-    "天气通": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "天气通": "sinaweather://"
-    }
-},
-    "墨迹天气": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "墨迹天气": "rm434209233MojiWeather://"
-    }
-},
-    "蜻蜓FM": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "蜻蜓FM": "qtfmp://"
-    }
-},
-    "浦发银行": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "浦发银行": "wx1cb534bb13ba3dbd://"
-    }
-},
-    "招商银行": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "招商银行": "cmbmobilebank://"
-    }
-},
-    "建设银行": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "建设银行": "wx2654d9155d70a468://"
-    }
-},
-    "工商银行": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "工商银行": "com.icbc.iphoneclient://"
-    }
-},
-    "保卫萝卜2": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "保卫萝卜2": "wb2217954495://"
-    }
-},
-    "保卫萝卜": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "保卫萝卜": "wb1308702128://"
-    }
-},
-    "搜狗输入法": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "搜狗输入法": "com.sogou.sogouinput://"
-    }
-},
-    "随手记": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "随手记": "FDMoney://"
-    }
-},
-    "weico微博": {
-    "app_tags": [],
-        "app_icon": "",
-        "pages": {
-        "weico微博": "weico://"
-    }
-}
 }

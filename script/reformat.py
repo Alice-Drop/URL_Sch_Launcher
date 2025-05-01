@@ -2,7 +2,7 @@ import json
 
 # 原始数据，简略示例，使用时替换为完整 URL_SCH_DATA
 URL_SCH_DATA = {
-    "设置": {
+    "ios系统基础应用": {
         "短信": "sms://",
         "AppStore": "itms-apps://",
         "电话": "tel://",
@@ -449,22 +449,44 @@ def convert_data(original_data):
     """
     将原始 URL_SCH_DATA 转换为指定格式：
     {
-      "App名称": {
-        "app_tags": [],
-        "app_icon": "",
-        "pages":  {页面名1: 链接1, ...}
+      应用的UUID: {
+        "name": 应用名称,
+        "tags": [],
+        "icon": "",
+        "pages":  [{"page_name":页面名1, "page_url": 链接1},
+                    {"page_name":页面名2, "page_url": 链接2, ...},
+        ]
       },
       ...
     }
     """
     new_data = {}
+
+    
+    index = 0
     for app_name, pages in original_data.items():
         pages_list = [{page_name: url} for page_name, url in pages.items()]
-        new_data[app_name] = {
-            "app_tags": [],
-            "app_icon": "",
-            "pages": pages
+
+        new_pages = []
+        for page_name, page_url in pages.items():
+            new_item = {
+                "page_name": {
+                    "zh-CN": page_name
+                    },
+                "page_url": page_url
+                }
+            new_pages.append(new_item)
+
+        
+        new_data["app_"+str(index)] = {
+            "name": {
+                "zh-CN": app_name
+                },
+            "tags": [],
+            "icon": "",
+            "pages": new_pages
         }
+        index +=1
     return new_data
 
 
