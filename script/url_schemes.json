@@ -1,10 +1,10 @@
 {
    "app_0": {
       "name": {
-         "zh-CN": "手机系统基础应用"
+         "zh-CN": "手机基本应用"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/ios_devices.png",
       "supported_platform": [],
       "pages": [
          {
@@ -310,7 +310,7 @@
          "zh-CN": "QQ"
       },
       "tags": [],
-      "icon": "qq.png",
+      "icon": "/app_icon/qq.png",
       "supported_platform": [],
       "pages": [
          {

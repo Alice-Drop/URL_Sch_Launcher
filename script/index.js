@@ -10,11 +10,17 @@ async function init(){
    await load_tags()
       .then((tags) => {
          TAGS = tags;
-      });
+      })
+       .catch((error)=>{
+           console.error(error);
+       });
+    console.log("tags ok")
    await load_urls()
       .then((urls) => {
          URL_SCH_DATA = urls;
       });
+
+    console.log("urls ok")
    
     show_all_items();
 }
@@ -101,7 +107,9 @@ function test_app_item(){
     let result_container = document.getElementById('result_container');
     result_container.innerHTML = "";
     result_container.appendChild(factory_app_item(data));
+}
 
-
+function user_guide(){
+    // 为初始使用的用户提供指引
 
 }
