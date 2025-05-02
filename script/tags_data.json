@@ -7,53 +7,55 @@
       }
     },
     "tag-Social": {
-      "names": {
-        "zh-CN": "社交媒体",
-        "en-US": "Social",
-        "ja-JP": "ソーシャル通信"
-      }
+        "names": {
+          "zh-CN": "社交媒体",
+          "en-US": "Social",
+          "ja-JP": "ソーシャル通信"
+        }
+
     },
     "tag-Contact": {
-        "names": {
+      "names": {
         "zh-CN": "通信",
         "en-US": "Contact",
         "ja-JP": "通信"
-    },
-    "tag-Game": {
+      },
+      "tag-Game": {
         "names": {
           "zh-CN": "游戏",
           "en-US": "Game"
         }
-    },
-    "tag-Efficency": {
+      },
+      "tag-Efficency": {
         "names": {
           "zh-CN": "效率",
           "en-US": "Efficency"
         }
-    },
-    "tag-Browser": {
+      },
+      "tag-Browser": {
         "names": {
           "zh-CN": "浏览器",
           "en-US": "Browser"
         }
-    },
-    "tag-Tool": {
+      },
+      "tag-Tool": {
         "names": {
           "zh-CN": "工具",
           "en-US": "Tool"
         }
-    },
-    "tag-Multi_Media": {
+      },
+      "tag-Multi_Media": {
         "names": {
           "zh-CN": "音视频",
           "en-US": "Multi Media"
         }
-    },
-    "tag-Development": {
+      },
+      "tag-Development": {
         "names": {
           "zh-CN": "开发",
           "en-US": "Development"
         }
+      }
     }
   }
   

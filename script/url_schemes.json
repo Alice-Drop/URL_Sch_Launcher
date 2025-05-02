@@ -4,7 +4,7 @@
          "zh-CN": "手机基本应用"
       },
       "tags": [],
-      "icon": "/app_icon/ios_devices.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/ios_devices.png",
       "supported_platform": [],
       "pages": [
          {
@@ -44,7 +44,7 @@
          "zh-CN": "支付宝"
       },
       "tags": [],
-      "icon": "/app_icon/zhifubao.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/zhifubao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -156,7 +156,7 @@
          "zh-CN": "微信"
       },
       "tags": [],
-      "icon": "/app_icon/weixin.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/weixin.png",
       "supported_platform": [],
       "pages": [
          {
@@ -244,7 +244,7 @@
          "zh-CN": "钉钉"
       },
       "tags": [],
-      "icon": "/app_icon/dingding.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/dingding.png",
       "supported_platform": [],
       "pages": [
          {
@@ -260,7 +260,7 @@
          "zh-CN": "淘宝"
       },
       "tags": [],
-      "icon": "/app_icon/taobao.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/taobao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -294,7 +294,7 @@
          "zh-CN": "天猫"
       },
       "tags": [],
-      "icon": "/app_icon/tianmao.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/tianmao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -310,7 +310,7 @@
          "zh-CN": "QQ"
       },
       "tags": [],
-      "icon": "/app_icon/qq.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/qq.png",
       "supported_platform": [],
       "pages": [
          {
@@ -344,7 +344,7 @@
          "zh-CN": "QQ音乐"
       },
       "tags": [],
-      "icon": "/app_icon/qqmusic.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/qqmusic.png",
       "supported_platform": [],
       "pages": [
          {
@@ -366,7 +366,7 @@
          "zh-CN": "QQ浏览器"
       },
       "tags": [],
-      "icon": "/app_icon/qq_browser.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/qq_browser.png",
       "supported_platform": [],
       "pages": [
          {
@@ -382,7 +382,7 @@
          "zh-CN": "QQ邮箱"
       },
       "tags": [],
-      "icon": "/app_icon/qq_mail.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/qq_mail.png",
       "supported_platform": [],
       "pages": [
          {
@@ -414,7 +414,7 @@
          "zh-CN": "腾讯视频"
       },
       "tags": [],
-      "icon": "/app_icon/tencent_video.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/tencent_secure.png",
       "supported_platform": [],
       "pages": [
          {
@@ -510,7 +510,7 @@
          "zh-CN": "腾讯手机管家"
       },
       "tags": [],
-      "icon": "/app_icon/tencent_secure.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/tencent_secure.png",
       "supported_platform": [],
       "pages": [
          {
@@ -574,7 +574,7 @@
          "zh-CN": "天天酷跑"
       },
       "tags": [],
-      "icon": "/app_icon/tiantiankupao.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/tiantiankupao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -622,7 +622,7 @@
          "zh-CN": "百度"
       },
       "tags": [],
-      "icon": "/app_icon/baidu.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/baidu.png",
       "supported_platform": [],
       "pages": [
          {
@@ -638,7 +638,7 @@
          "zh-CN": "百度地图"
       },
       "tags": [],
-      "icon": "/app_icon/baidu_map.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/baidu_map.png",
       "supported_platform": [],
       "pages": [
          {
@@ -654,7 +654,7 @@
          "zh-CN": "百度贴吧"
       },
       "tags": [],
-      "icon": "/app_icon/baidu_tieba.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/baidu_tieba.png",
       "supported_platform": [],
       "pages": [
          {
@@ -670,7 +670,7 @@
          "zh-CN": "百度云"
       },
       "tags": [],
-      "icon": "/app_icon/baidu_cloud_disk.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/baidu_cloud_disk.png",
       "supported_platform": [],
       "pages": [
          {
@@ -830,7 +830,7 @@
          "zh-CN": "网易云音乐"
       },
       "tags": [],
-      "icon": "/app_icon/wangyiyun_music.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/wangyiyun_music.png",
       "supported_platform": [],
       "pages": [
          {
@@ -846,7 +846,7 @@
          "zh-CN": "有道词典"
       },
       "tags": [],
-      "icon": "/app_icon/youdao_dict.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/youdao_dict.png",
       "supported_platform": [],
       "pages": [
          {
@@ -917,7 +917,7 @@
          "zh-CN": "美团"
       },
       "tags": [],
-      "icon": "/app_icon/meituan.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/meituan.png",
       "supported_platform": [],
       "pages": [
          {
@@ -939,7 +939,7 @@
          "zh-CN": "点评"
       },
       "tags": [],
-      "icon": "/app_icon/dianping.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/dianping.png",
       "supported_platform": [],
       "pages": [
          {
@@ -961,7 +961,7 @@
          "zh-CN": "12306"
       },
       "tags": [],
-      "icon": "/app_icon/12306.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/12306.png",
       "supported_platform": [],
       "pages": [
          {
@@ -977,7 +977,7 @@
          "zh-CN": "京东"
       },
       "tags": [],
-      "icon": "/app_icon/jingdong.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/jingdong.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1015,7 +1015,7 @@
          "zh-CN": "高德地图"
       },
       "tags": [],
-      "icon": "/app_icon/gaodeditu.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/gaodeditu.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1037,7 +1037,7 @@
          "zh-CN": "新浪微博"
       },
       "tags": [],
-      "icon": "/app_icon/weibo.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/weibo.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1085,7 +1085,7 @@
          "zh-CN": "爱奇艺"
       },
       "tags": [],
-      "icon": "/app_icon/iqiyi.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/iqiyi.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1299,7 +1299,7 @@
          "zh-CN": "chrome"
       },
       "tags": [],
-      "icon": "/app_icon/chorme.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/chorme.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1315,7 +1315,7 @@
          "zh-CN": "Gmail"
       },
       "tags": [],
-      "icon": "/app_icon/gmail.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/gmail.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1491,7 +1491,7 @@
          "zh-CN": "知乎"
       },
       "tags": [],
-      "icon": "/app_icon/zhihu.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/zhihu.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1780,7 +1780,7 @@
          "zh-CN": "布卡漫画"
       },
       "tags": [],
-      "icon": "/app_icon/buka_comic.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/buka_comic.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1876,7 +1876,7 @@
          "zh-CN": "陌陌"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/momo.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1908,7 +1908,7 @@
          "zh-CN": "掌阅iReader"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/zhangyue_iReader.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1937,10 +1937,10 @@
    },
    "app_109": {
       "name": {
-         "zh-CN": "迅雷+迅雷云播"
+         "zh-CN": "迅雷"
       },
       "tags": [],
-      "icon": "/app_icon/xunlei.png",
+      "icon": "https://github.com/Alice-Drop/Third-part-icons/blob/main/xunlei.png",
       "supported_platform": [],
       "pages": [
          {
