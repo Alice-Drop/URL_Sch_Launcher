@@ -10,7 +10,7 @@ img{
     min-width: 20vw;
     max-width: 500px;
 
-    height: 98vh;
+    min-height: 98vh;
     border: 1px dotted black;
 
     position: relative;
@@ -18,7 +18,7 @@ img{
 
 #nav{
     text-align: left;
-    background-color: #2A82E4;
+    background-color: #5894d8;
     padding: 15px 0;
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

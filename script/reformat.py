@@ -1,7 +1,7 @@
 import json
 
-DATA_PATH = "./url_schemes.json"
-OUTPUT_PATH = DATA_PATH
+DATA_PATH = "./raw_data.json"
+OUTPUT_PATH = "./url_schemes.json"
 
 
 # 原始数据，简略示例，使用时替换为完整 URL_SCH_DATA
@@ -29,7 +29,7 @@ def convert_data(original_data):
     new_data = {}
     
     index = 0
-    for app_name, pages in original_data.items():
+    for key, pages in original_data.items(): # 遍历原始数据
         pages_list = [{page_name: url} for page_name, url in pages.items()]
 
         new_pages = []
@@ -42,9 +42,9 @@ def convert_data(original_data):
                 }
             new_pages.append(new_item)
 
-        new_data["app_"+str(index)] = {
+        new_data["app_"+ str(index)] = {
             "name": {
-                "zh-CN": app_name
+                "zh-CN": key
                 },
             "tags": [],
             "icon": "",

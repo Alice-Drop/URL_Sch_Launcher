@@ -54,6 +54,10 @@ function factory_page_item(page_data){
 
     })
 
+    widget.getElementsByClassName("btn_open_url")[0].addEventListener("click", function(){
+        window.open(page_data[PageKeys.URL], "_self");
+    })
+
     return widget;
 
 }

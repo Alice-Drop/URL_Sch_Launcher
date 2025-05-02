@@ -1,3 +1,5 @@
+# 准备弃用。因为这个的转换太麻烦了。
+
 class AppKeys:
     NAME = "name"
     ICON = "icon"
@@ -6,12 +8,13 @@ class AppKeys:
     PLATFORM = "supported_platform"
     
 class SYSTEM:
-    LANGUAGE = "zh-CN"
+    LANGUAGE = "zh-CN",
+    PATH = "./url_schemes.json"
     
     
 class PageContent:
     def __init__(self, data):
-
+        pass
     
 class AppItem:
     def __init__(self, data: dict):

@@ -1,5 +1,44 @@
-function init(){
+let TAGS = {};
+let URL_SCH_DATA = {};
+
+const LINKS = {
+   URL_SCH: "/script/url_schemes.json",
+   TAGS: "/script/tags_data.json"
+}
+
+async function init(){
+   await load_tags()
+      .then((tags) => {
+         TAGS = tags;
+      });
+   await load_urls()
+      .then((urls) => {
+         URL_SCH_DATA = urls;
+      });
+   
     show_all_items();
+}
+
+async function load_tags(){
+   let response = await fetch(LINKS.TAGS);
+   if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+   let tags_data = await response.json();
+
+   return tags_data;
+   
+}
+
+async function load_urls() {
+   let response = await fetch(LINKS.URL_SCH);
+   if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+   let url_data = await response.json();
+
+   return url_data;
+   
 }
 
 function show_all_items(){
