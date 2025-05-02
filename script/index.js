@@ -6,8 +6,13 @@ const LINKS = {
    TAGS: "/script/tags_data.json"
 }
 
+const ANNOUNCEMENT_VERSION = 202505022317;  // 用来识别用户看过的公告版本是否低于当前公告版本
+
 async function init(){
-   await load_tags()
+    if (!is_announce_checked()){
+        user_guide();
+    }
+    await load_tags()
       .then((tags) => {
          TAGS = tags;
       })
@@ -15,7 +20,7 @@ async function init(){
            console.error(error);
        });
     console.log("tags ok")
-   await load_urls()
+    await load_urls()
       .then((urls) => {
          URL_SCH_DATA = urls;
       });
@@ -30,9 +35,7 @@ async function load_tags(){
    if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-   let tags_data = await response.json();
-
-   return tags_data;
+    return await response.json();
    
 }
 
@@ -56,52 +59,21 @@ function show_all_items(){
         result_container.appendChild(factory_app_item(app));
     }
 
+    unfold_first_item();
+
+}
+
+function unfold_first_item(){
+    // 为了用户指引和好看，需要让第一个是开启状态
+    let first_app_item = document.querySelectorAll(".app_item")[0];
+    first_app_item.getElementsByClassName("app_item_title_placer")[0].click();
+    //first_app_item.getElementsByClassName("page_info")[0].click();
 }
 
 
 
 function test_app_item(){
-    /*
-    "app_0": {
-      "name": {
-         "zh-CN": "ios系统基础应用"
-      },
-      "tags": [],
-      "icon": "",
-      "pages": [
-         {
-            "page_name": {
-               "zh-CN": "短信"
-            },
-            "page_url": "sms://"
-         },
-         {
-            "page_name": {
-               "zh-CN": "AppStore"
-            },
-            "page_url": "itms-apps://"
-         },
-         {
-            "page_name": {
-               "zh-CN": "电话"
-            },
-            "page_url": "tel://"
-         },
-         {
-            "page_name": {
-               "zh-CN": "备忘录"
-            },
-            "page_url": "mobilenotes://"
-         },
-         {
-            "page_name": {
-               "zh-CN": "E-Mail"
-            },
-            "page_url": "MESSAGE://"
-         }
-      ]
-   }
-    * */
+
     let data = URL_SCH_DATA.app_0;
 
     let result_container = document.getElementById('result_container');
@@ -112,4 +84,27 @@ function test_app_item(){
 function user_guide(){
     // 为初始使用的用户提供指引
 
+    let title_user_guide = "欢迎使用URL Scheme 快速启动应用 工具！";
+    let text_user_guide = `
+URL Scheme是一种可以直接跳转到应用里的页面的链接。
+比如说，<a class="std_link" href="weixin://">weixin://</a>这个链接可以直接跳转到这台设备上上安装的微信（手机/电脑都可以）。可以点击试试！
+利用这个，我们可以实现很多方便的效果，甚至是把直接跳转到应用内部的链接放到桌面，用这个链接打开一些应用就不会出现开屏广告。
+目前，IOS系统对此的支持较好，部分链接在其它平台会无效。
+        `
+    msg_box("popup_user_guide", title_user_guide, text_user_guide, user_guide_checked)
+
+}
+
+function user_guide_checked(){
+    localStorage.setItem("is_announce", String(ANNOUNCEMENT_VERSION));
+}
+
+function is_announce_checked(){
+    // 检查用户是否已经阅读了最新版的公告
+    let read_announce = Number(localStorage.getItem("is_announce"));
+    if (read_announce){
+        if (read_announce >= ANNOUNCEMENT_VERSION)
+            return true;
+    }
+    return false;
 }
