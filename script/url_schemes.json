@@ -27,7 +27,7 @@
          },
          {
             "page_name": {
-               "zh-CN": "备忘录"
+               "zh-CN": "ios备忘录"
             },
             "page_url": "mobilenotes://"
          },
@@ -44,7 +44,7 @@
          "zh-CN": "支付宝"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/zhifubao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -73,7 +73,7 @@
          },
          {
             "page_name": {
-               "zh-CN": "款码"
+               "zh-CN": "收款码"
             },
             "page_url": "alipayqr://platformapi/startapp?saId=20000056"
          },
@@ -156,7 +156,7 @@
          "zh-CN": "微信"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/weixin.png",
       "supported_platform": [],
       "pages": [
          {
@@ -244,7 +244,7 @@
          "zh-CN": "钉钉"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/dingding.png",
       "supported_platform": [],
       "pages": [
          {
@@ -260,7 +260,7 @@
          "zh-CN": "淘宝"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/taobao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -294,7 +294,7 @@
          "zh-CN": "天猫"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/tianmao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -310,7 +310,7 @@
          "zh-CN": "QQ"
       },
       "tags": [],
-      "icon": "",
+      "icon": "qq.png",
       "supported_platform": [],
       "pages": [
          {
@@ -344,7 +344,7 @@
          "zh-CN": "QQ音乐"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/qqmusic.png",
       "supported_platform": [],
       "pages": [
          {
@@ -366,7 +366,7 @@
          "zh-CN": "QQ浏览器"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/qq_browser.png",
       "supported_platform": [],
       "pages": [
          {
@@ -382,7 +382,7 @@
          "zh-CN": "QQ邮箱"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/qq_mail.png",
       "supported_platform": [],
       "pages": [
          {
@@ -414,7 +414,7 @@
          "zh-CN": "腾讯视频"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/tencent_video.png",
       "supported_platform": [],
       "pages": [
          {
@@ -510,7 +510,7 @@
          "zh-CN": "腾讯手机管家"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/tencent_secure.png",
       "supported_platform": [],
       "pages": [
          {
@@ -574,7 +574,7 @@
          "zh-CN": "天天酷跑"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/tiantiankupao.png",
       "supported_platform": [],
       "pages": [
          {
@@ -622,7 +622,7 @@
          "zh-CN": "百度"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/baidu.png",
       "supported_platform": [],
       "pages": [
          {
@@ -638,7 +638,7 @@
          "zh-CN": "百度地图"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/baidu_map.png",
       "supported_platform": [],
       "pages": [
          {
@@ -654,7 +654,7 @@
          "zh-CN": "百度贴吧"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/baidu_tieba.png",
       "supported_platform": [],
       "pages": [
          {
@@ -670,7 +670,7 @@
          "zh-CN": "百度云"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/baidu_cloud_disk.png",
       "supported_platform": [],
       "pages": [
          {
@@ -830,7 +830,7 @@
          "zh-CN": "网易云音乐"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/wangyiyun_music.png",
       "supported_platform": [],
       "pages": [
          {
@@ -846,7 +846,7 @@
          "zh-CN": "有道词典"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/youdao_dict.png",
       "supported_platform": [],
       "pages": [
          {
@@ -917,7 +917,7 @@
          "zh-CN": "美团"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/meituan.png",
       "supported_platform": [],
       "pages": [
          {
@@ -939,7 +939,7 @@
          "zh-CN": "点评"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/dianping.png",
       "supported_platform": [],
       "pages": [
          {
@@ -961,7 +961,7 @@
          "zh-CN": "12306"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/12306.png",
       "supported_platform": [],
       "pages": [
          {
@@ -977,7 +977,7 @@
          "zh-CN": "京东"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/jingdong.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1015,7 +1015,7 @@
          "zh-CN": "高德地图"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/gaodeditu.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1037,7 +1037,7 @@
          "zh-CN": "新浪微博"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/weibo.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1085,7 +1085,7 @@
          "zh-CN": "爱奇艺"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/iqiyi.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1299,7 +1299,7 @@
          "zh-CN": "chrome"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/chorme.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1315,7 +1315,7 @@
          "zh-CN": "Gmail"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/gmail.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1491,7 +1491,7 @@
          "zh-CN": "知乎"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/zhihu.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1780,7 +1780,7 @@
          "zh-CN": "布卡漫画"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/buka_comic.png",
       "supported_platform": [],
       "pages": [
          {
@@ -1940,7 +1940,7 @@
          "zh-CN": "迅雷+迅雷云播"
       },
       "tags": [],
-      "icon": "",
+      "icon": "/app_icon/xunlei.png",
       "supported_platform": [],
       "pages": [
          {
