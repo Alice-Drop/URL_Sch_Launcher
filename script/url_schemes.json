@@ -4,7 +4,7 @@
          "zh-CN": "手机基本应用"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//ios_devices.png",
+      "icon": "https://img.alicedrop.site/ios_devices.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -44,7 +44,7 @@
          "zh-CN": "支付宝"
       },
       "tags": ["tag-Payment"],
-      "icon": "https://img.alicedrop.site//zhifubao.png",
+      "icon": "https://img.alicedrop.site/zhifubao.png",
       "supported_platforms": ["android", "ios"],
       "pages": [
          {
@@ -156,7 +156,7 @@
          "zh-CN": "微信"
       },
       "tags": ["tag-Contact"],
-      "icon": "https://img.alicedrop.site//weixin.png",
+      "icon": "https://img.alicedrop.site/weixin.png",
       "supported_platforms": ["android", "ios"],
       "pages": [
          {
@@ -244,7 +244,7 @@
          "zh-CN": "钉钉"
       },
       "tags": ["tag-Contact", "tag-Efficiency"],
-      "icon": "https://img.alicedrop.site//dingding.png",
+      "icon": "https://img.alicedrop.site/dingding.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -260,7 +260,7 @@
          "zh-CN": "淘宝"
       },
       "tags": ["tag-Shopping"],
-      "icon": "https://img.alicedrop.site//taobao.png",
+      "icon": "https://img.alicedrop.site/taobao.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -294,7 +294,7 @@
          "zh-CN": "天猫"
       },
       "tags": ["tag-Shopping"],
-      "icon": "https://img.alicedrop.site//tianmao.png",
+      "icon": "https://img.alicedrop.site/tianmao.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -310,7 +310,7 @@
          "zh-CN": "QQ"
       },
       "tags": ["tag-Contact"],
-      "icon": "https://img.alicedrop.site//qq.png",
+      "icon": "https://img.alicedrop.site/qq.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -344,7 +344,7 @@
          "zh-CN": "QQ音乐"
       },
       "tags": ["tag-Music"],
-      "icon": "https://img.alicedrop.site//qqmusic.png",
+      "icon": "https://img.alicedrop.site/qqmusic.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -366,7 +366,7 @@
          "zh-CN": "QQ浏览器"
       },
       "tags": ["tag-Browser"],
-      "icon": "https://img.alicedrop.site//qq_browser.png",
+      "icon": "https://img.alicedrop.site/qq_browser.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -382,7 +382,7 @@
          "zh-CN": "QQ邮箱"
       },
       "tags": ["tag-Contact"],
-      "icon": "https://img.alicedrop.site//qq_mail.png",
+      "icon": "https://img.alicedrop.site/qq_mail.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -398,7 +398,7 @@
          "zh-CN": "菜鸟"
       },
       "tags": ["tag-Courier"],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/cainiao.png",
       "supported_platforms": ["android", "ios"],
       "pages": [
          {
@@ -414,7 +414,7 @@
          "zh-CN": "腾讯视频"
       },
       "tags": ["tag-Video"],
-      "icon": "https://img.alicedrop.site//tencent_video.png",
+      "icon": "https://img.alicedrop.site/tencent_video.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -430,7 +430,7 @@
          "zh-CN": "腾讯新闻"
       },
       "tags": ["tag-Feed"],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/tencent_news.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -446,7 +446,7 @@
          "zh-CN": "腾讯微云"
       },
       "tags": ["tag-Cloud_Storage"],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/weiyun.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -462,7 +462,7 @@
          "zh-CN": "腾讯地图"
       },
       "tags": ["tag-Map"],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/tencent_map.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -479,7 +479,7 @@
       },
       "tags": ["tag-Game"],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -510,7 +510,7 @@
          "zh-CN": "腾讯手机管家"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//tencent_secure.png",
+      "icon": "https://img.alicedrop.site/tencent_secure.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -527,7 +527,7 @@
       },
       "tags": [],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -574,7 +574,7 @@
          "zh-CN": "天天酷跑"
       },
       "tags": ["tag-Game"],
-      "icon": "https://img.alicedrop.site//tiantiankupao.png",
+      "icon": "https://img.alicedrop.site/tiantiankupao.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -606,7 +606,7 @@
          "zh-CN": "节奏大师"
       },
       "tags": ["tag-Game"],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/jiezhoudashi.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -622,7 +622,7 @@
          "zh-CN": "百度"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//baidu.png",
+      "icon": "https://img.alicedrop.site/baidu.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -638,7 +638,7 @@
          "zh-CN": "百度地图"
       },
       "tags": ["tag-Map"],
-      "icon": "https://img.alicedrop.site//baidu_map.png",
+      "icon": "https://img.alicedrop.site/baidu_map.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -654,7 +654,7 @@
          "zh-CN": "百度贴吧"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//baidu_tieba.png",
+      "icon": "https://img.alicedrop.site/baidu_tieba.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -670,7 +670,7 @@
          "zh-CN": "百度云"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//baidu_cloud_disk.png",
+      "icon": "https://img.alicedrop.site/baidu_cloud_disk.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -687,7 +687,7 @@
       },
       "tags": [],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -703,7 +703,7 @@
       },
       "tags": [],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -782,7 +782,7 @@
          "zh-CN": "百度输入法"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/baidu_shurufa.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -798,7 +798,7 @@
          "zh-CN": "网易邮箱"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/netease_mail.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -814,7 +814,7 @@
          "zh-CN": "网易新闻"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/netease_news.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -830,7 +830,7 @@
          "zh-CN": "网易云音乐"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//wangyiyun_music.png",
+      "icon": "https://img.alicedrop.site/wangyiyun_music.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -846,7 +846,7 @@
          "zh-CN": "有道词典"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//youdao_dict.png",
+      "icon": "https://img.alicedrop.site/youdao_dict.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -869,7 +869,7 @@
          "zh-CN": "有道云笔记"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/youdao_note.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -885,7 +885,7 @@
          "zh-CN": "网易公开课"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/netease_lesson.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -917,7 +917,7 @@
          "zh-CN": "美团"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//meituan.png",
+      "icon": "https://img.alicedrop.site/meituan.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -939,7 +939,7 @@
          "zh-CN": "点评"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//dianping.png",
+      "icon": "https://img.alicedrop.site/dianping.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -961,7 +961,7 @@
          "zh-CN": "12306"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//12306.png",
+      "icon": "https://img.alicedrop.site/12306.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -977,7 +977,7 @@
          "zh-CN": "京东"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//jingdong.png",
+      "icon": "https://img.alicedrop.site/jingdong.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -999,7 +999,7 @@
          "zh-CN": "今日头条"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/jinritoutiao.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1015,7 +1015,7 @@
          "zh-CN": "高德地图"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//gaodeditu.png",
+      "icon": "https://img.alicedrop.site/gaodeditu.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1037,7 +1037,7 @@
          "zh-CN": "新浪微博"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//weibo.png",
+      "icon": "https://img.alicedrop.site/weibo.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1069,7 +1069,7 @@
          "zh-CN": "优酷"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/youku.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1085,7 +1085,7 @@
          "zh-CN": "爱奇艺"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//iqiyi.png",
+      "icon": "https://img.alicedrop.site/iqiyi.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1108,7 +1108,7 @@
       },
       "tags": [],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -1124,7 +1124,7 @@
       },
       "tags": [],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -1139,7 +1139,7 @@
          "zh-CN": "PPTV"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/pptv.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1155,7 +1155,7 @@
          "zh-CN": "暴风影音"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/baofeng_viedo.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1171,7 +1171,7 @@
          "zh-CN": "搜狐视频"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/souhu_video.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1187,7 +1187,7 @@
          "zh-CN": "搜狐新闻"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/souhu_news.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1204,7 +1204,7 @@
       },
       "tags": [],
       "icon": "",
-      "supported_platforms": [],
+      "supported_platforms": ["shut_down"],
       "pages": [
          {
             "page_name": {
@@ -1219,7 +1219,7 @@
          "zh-CN": "酷我音乐"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/kuwo_music.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1235,7 +1235,7 @@
          "zh-CN": "酷狗音乐"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/kugou_music.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1299,7 +1299,7 @@
          "zh-CN": "chrome"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//chorme.png",
+      "icon": "https://img.alicedrop.site/chorme.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1315,7 +1315,7 @@
          "zh-CN": "Gmail"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//gmail.png",
+      "icon": "https://img.alicedrop.site/gmail.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1331,7 +1331,7 @@
          "zh-CN": "印象笔记"
       },
       "tags": [],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/yinxiang_note.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1491,7 +1491,7 @@
          "zh-CN": "知乎"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//zhihu.png",
+      "icon": "https://img.alicedrop.site/zhihu.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1780,7 +1780,7 @@
          "zh-CN": "布卡漫画"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//buka_comic.png",
+      "icon": "https://img.alicedrop.site/buka_comic.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1876,7 +1876,7 @@
          "zh-CN": "陌陌"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//momo.png",
+      "icon": "https://img.alicedrop.site/momo.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1908,7 +1908,7 @@
          "zh-CN": "掌阅iReader"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//zhangyue_iReader.png",
+      "icon": "https://img.alicedrop.site/zhangyue_iReader.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1940,7 +1940,7 @@
          "zh-CN": "迅雷"
       },
       "tags": [],
-      "icon": "https://img.alicedrop.site//xunlei.png",
+      "icon": "https://img.alicedrop.site/xunlei.png",
       "supported_platforms": [],
       "pages": [
          {

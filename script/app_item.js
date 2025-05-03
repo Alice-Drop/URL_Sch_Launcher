@@ -19,7 +19,8 @@ const PageKeys = {
 const SupportedPlatform = {
     ANDROID: "android",
     IOS:  "ios",
-    PC: "pc"
+    PC: "pc",
+    SHUT_DOWN: "shut_down"
 }
 
 
@@ -90,6 +91,11 @@ function factory_compatibility_note(supported_platform){
         }
         if (!supported_platform.includes(SupportedPlatform.ANDROID)){
             widget.getElementsByClassName("icon_comp_android")[0].classList.add("hidden");
+        }
+
+        if (supported_platform.includes(SupportedPlatform.SHUT_DOWN)){
+            widget.getElementsByClassName("icon_comp_checked")[0].setAttribute("src", "./img/shut_down.svg")
+            widget.innerHTML += "软件已被关闭"
         }
 
     }else {

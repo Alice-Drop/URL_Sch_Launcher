@@ -70,9 +70,13 @@
 .compilability_note{
     border: 2px solid #ccc;
     border-radius: 5px;
-    padding: 1px;
+    padding: 2px;
 
     height: 28px;
+    vertical-align: middle;
+
+    color: black;
+    font-size: 15px;
 
 
 
