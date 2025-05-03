@@ -48,7 +48,7 @@ def convert_data(original_data):
                 },
             "tags": [],
             "icon": "",
-            "supported_platform": [],
+            "supported_platforms": [],
             "pages": new_pages,
 
         }

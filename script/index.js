@@ -61,10 +61,14 @@ function display_app_item_set(app_item_set){
     result_container.innerHTML = '';
     for (let id of app_item_set){
         let app = URL_SCH_DATA[id];
-        result_container.appendChild(factory_app_item(app));
-    }
+        if (app.name[SYSTEM.language] !== ""){
+            // 不加载那些故意留空的
+            result_container.appendChild(factory_app_item(app));
+        }
 
+    }
     unfold_first_item();
+    // result_unfolding_control(); todo:在高级的自然滚动没有做出来之前不要搞这个
 
 }
 
@@ -72,7 +76,7 @@ function unfold_first_item(){
     // 为了用户指引和好看，需要让搜索结果第一个是开启状态
     let first_app_item = document.querySelectorAll(".app_item")[0];
     if (first_app_item){
-        first_app_item.getElementsByClassName("app_item_title_placer")[0].click();
+        first_app_item.getElementsByClassName("app_item_info_placer")[0].click();
         //first_app_item.getElementsByClassName("page_info")[0].click();
     }
 }
@@ -115,7 +119,7 @@ function is_announce_checked(){
     return false;
 }
 
-/*  ======== 搜索框管理相关  =========  */
+
 function start_search(){
     let txt_search_word = document.getElementById("txt_search_word");
 
@@ -131,8 +135,15 @@ function result_unfolding_control(){
     let result_container = document.getElementById('result_container');
     result_container.addEventListener("click", function(event){
         let clicked_part = event.target;
-        if (clicked_part.closest(".app_item").contain(clicked_part)){
+        if (clicked_part.closest(".app_item")){
+            // 点击的是一个app_item.无论它是正在展开还是折叠，都要把别的设为折叠
+            for (let app_item of event.currentTarget.querySelectorAll(".app_item")){
+                if (app_item !== clicked_part.closest(".app_item")){
+                    app_item.classList.add("folded");
+                }
+                clicked_part.scrollIntoView();
 
+            }
         }
     })
 }

@@ -25,7 +25,8 @@
 /*  标题基础信息  */
 
 .app_icon{
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 10px;
     display: inline;
     user-select: none;
@@ -36,21 +37,60 @@
     margin-right: 10px;
 }
 
+.app_item_info_placer{
+    display: flex;
+
+}
+
+.app_item_info_placer *{
+    user-select: none;
+}
+
+.app_item_title_placer{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: start;
+
+    width: 100%;
+}
+
 .app_title{
     font-weight: bold;
     user-select: none;
 
-}
+    font-size: 18px;
 
-.app_item_title_placer{
+    height: 30px;
+
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.app_item_title_placer *{
-    user-select: none;
+.compilability_note{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 1px;
+
+    height: 28px;
+
+
+
+}
+
+.icon_comp_checked{
+    height: 13px;
 }
 
 
+
+/* 标签 */
+.tag_element{
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
+}
 
 .pages_container{
     border: 1px solid #ccc;
