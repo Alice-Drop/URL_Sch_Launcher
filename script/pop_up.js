@@ -24,7 +24,8 @@ function msg_box(id, title, text, call_back){
     msg_ok.addEventListener("click", call_back);
     msg_box_element.addEventListener("click", (event) =>{
         if (event.target === msg_ok){
-
+            event.currentTarget.classList.add("hidden");
+            localStorage.setItem("is_announce", ANNOUNCEMENT_VERSION)
         }
     })
 
