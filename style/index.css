@@ -41,6 +41,9 @@ img{
     font-weight: bold;
     width: 90%;
     user-select: none;
+
+    display: flex;
+    align-items: center;
 }
 
 #project_title span{
