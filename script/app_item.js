@@ -66,11 +66,20 @@ function factory_page_item(page_data){
 
 function factory_app_item(app_data){
     let pages = app_data[AppKeys.PAGES];
-    let tags = app_data[AppKeys.TAGS];
-    // TODO: 标签忘记做国际化了
+    let raw_tags_data = app_data[AppKeys.TAGS];
+    let tags = [];
+    if (raw_tags_data.length > 0){
+        for (let tag_code of raw_tags_data){
+            if (Object.keys(TAGS).includes(tag_code)){
+                // 如果是一个标签
+                tags.push(TAGS[tag_code].name[SYSTEM.language]);
+
+            }
+        }
+    }
 
     let name = app_data[AppKeys.NAME][SYSTEM.language];
-    console.log(name)
+
 
     let icon = app_data[AppKeys.ICON];
     if (!icon){
@@ -133,9 +142,7 @@ function factory_app_item(app_data){
                 }
             }
         }
-
     })
-
     return widget;
 
 }

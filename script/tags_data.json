@@ -1,13 +1,13 @@
 {
     "tag-Payment": {
-      "names": {
-        "zh-CN": "支付",
-        "en-US": "Payment",
-        "ja-JP": "支払いツール"
-      }
+        "name": {
+          "zh-CN": "支付",
+          "en-US": "Payment",
+          "ja-JP": "支払いツール"
+        }
     },
     "tag-Social": {
-        "names": {
+        "name": {
           "zh-CN": "社交媒体",
           "en-US": "Social",
           "ja-JP": "ソーシャル通信"
@@ -15,47 +15,98 @@
 
     },
     "tag-Contact": {
-      "names": {
-        "zh-CN": "通信",
-        "en-US": "Contact",
-        "ja-JP": "通信"
-      },
+        "name": {
+          "zh-CN": "通信",
+          "en-US": "Contact",
+          "ja-JP": "通信"
+        }
+    },
       "tag-Game": {
-        "names": {
+        "name": {
           "zh-CN": "游戏",
           "en-US": "Game"
         }
+
       },
+
       "tag-Efficiency": {
-        "names": {
+        "name": {
           "zh-CN": "效率",
-          "en-US": "Efficency"
+          "en-US": "Efficiency"
         }
       },
       "tag-Browser": {
-        "names": {
+        "name": {
           "zh-CN": "浏览器",
           "en-US": "Browser"
         }
       },
       "tag-Tool": {
-        "names": {
+        "name": {
           "zh-CN": "工具",
           "en-US": "Tool"
         }
       },
       "tag-Multi_Media": {
-        "names": {
+        "name": {
           "zh-CN": "音视频",
           "en-US": "Multi Media"
         }
       },
       "tag-Development": {
-        "names": {
+        "name": {
           "zh-CN": "开发",
           "en-US": "Development"
         }
+    },
+    "tag-Shopping": {
+      "name": {
+        "zh-CN": "购物",
+        "en-US": "Shopping"
+      }
+    },
+    "tag-Music": {
+      "name": {
+        "zh-CN": "音乐",
+        "en-US": "Music"
+      }
+    },
+    "tag-Video": {
+      "name": {
+        "zh-CN": "视频",
+        "en-US": "Video"
+      }
+    },
+    "tag-Feed": {
+      "name": {
+        "zh-CN": "信息流",
+        "en-US": "Feed"
+      }
+    },
+    "tag-Cloud_Storage": {
+      "name": {
+        "zh-CN": "网盘",
+        "en-US": "Cloud Storage"
+      }
+    },
+    "tag-Map": {
+      "name": {
+        "zh-CN": "地图",
+        "en-US": "Map"
+      }
+    },
+    "tag-Food_Delivery": {
+      "name": {
+        "zh-CN": "外卖",
+        "en-US": "Food Delivery"
+      }
+    },
+    "tag-Courier": {
+      "name": {
+        "zh-CN": "快递",
+        "en-US": "Courier"
       }
     }
-  }
+}
+
   
