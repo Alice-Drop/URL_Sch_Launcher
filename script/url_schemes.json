@@ -634,7 +634,8 @@
             "page_name": {
                "zh-CN": "百度"
             },
-            "page_url": "baiduboxapp://"
+            "page_url": "baiduboxapp://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/1142688d3dd14c54824e5ab12a90f962"
          }
       ]
    },
