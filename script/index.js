@@ -6,6 +6,15 @@ const LINKS = {
    TAGS: "/script/tags_data.json"
 }
 
+let System =  {
+    language: navigator.language,
+}
+
+// 开发时对语言匹配的优先级。优先级最高的是中文，一定有。
+const LANGUAGE_PRIORITY = ["zh-CN", "en", "ja"]
+// 对应语言没有时寻求兼容的顺序。
+const COMPAT_LANG_PRIORITY = ["en", "zh-CN"]
+
 const ANNOUNCEMENT_VERSION = 202505022317;  // 用来识别用户看过的公告版本是否低于当前公告版本
 
 async function init(){
@@ -61,7 +70,7 @@ function display_app_item_set(app_item_set){
     result_container.innerHTML = '';
     for (let id of app_item_set){
         let app = URL_SCH_DATA[id];
-        if (app.name[SYSTEM.language] !== ""){
+        if (safe_get_language_content(app.name) !== ""){
             // 不加载那些故意留空的
             result_container.appendChild(factory_app_item(app));
         }
@@ -148,4 +157,24 @@ function result_unfolding_control(){
             }
         }
     })
+}
+
+function safe_get_language_content(data){
+    // 尝试获取当前语言的对应内容，如果没有则根据兼容顺序来。
+    let languages = Object.keys(data);
+    if (languages.includes(System.language)){
+        return data[System.language]
+    }else{
+        for (let compat_lang of COMPAT_LANG_PRIORITY){
+            console.log(`尝试检查，兼容性${compat_lang}是否包含在数据支持的类型${languages}中`)
+            if (languages.includes(compat_lang)){
+                return data[compat_lang]
+            }
+        }
+        // 到了这里就说明是没有找到任何兼容的语言，包括一定会有的中文，直接报错
+        alert("警告！传入的数据无法获取到任何有效语言，可能出现错误。")
+        console.log("警告！传入的数据无法获取到任何有效语言，可能出现错误。")
+        console.log(data)
+        console.log("请检查该数据是否为正确参数。")
+    }
 }

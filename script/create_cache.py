@@ -1,10 +1,10 @@
 import json
-from AppItem import SYSTEM, AppKeys
+from AppItem import System, AppKeys
 import os
 
 
 def load_data():
-    with open(SYSTEM.PATH, encoding="utf-8") as my_file:
+    with open(System.PATH, encoding="utf-8") as my_file:
         return json.load(my_file)
 
 

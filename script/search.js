@@ -31,13 +31,13 @@ function search_item(wanted_word){
         cache = cache_data;
     })
     let id_suited = [];
-    let wanted_app_data = [];
+    //let wanted_app_data = [];
     console.log("开始搜索，查找"+wanted_word);
     for (let id of Object.keys(URL_SCH_DATA)){
         //
-        if (URL_SCH_DATA[id].name[SYSTEM.language].includes(wanted_word)){
+        if (safe_get_language_content(URL_SCH_DATA[id].name).includes(wanted_word)){
             id_suited.push(id);
-            wanted_app_data.push(URL_SCH_DATA[id]);
+            //wanted_app_data.push(URL_SCH_DATA[id]);
         }
     }
     return id_suited;

@@ -2,14 +2,14 @@
     "tag-Payment": {
         "name": {
           "zh-CN": "支付",
-          "en-US": "Payment",
+          "en": "Payment",
           "ja-JP": "支払いツール"
         }
     },
     "tag-Social": {
         "name": {
           "zh-CN": "社交媒体",
-          "en-US": "Social",
+          "en": "Social",
           "ja-JP": "ソーシャル通信"
         }
 
@@ -17,14 +17,14 @@
     "tag-Contact": {
         "name": {
           "zh-CN": "通信",
-          "en-US": "Contact",
+          "en": "Contact",
           "ja-JP": "通信"
         }
     },
       "tag-Game": {
         "name": {
           "zh-CN": "游戏",
-          "en-US": "Game"
+          "en": "Game"
         }
 
       },
@@ -32,79 +32,109 @@
       "tag-Efficiency": {
         "name": {
           "zh-CN": "效率",
-          "en-US": "Efficiency"
+          "en": "Efficiency"
         }
       },
       "tag-Browser": {
         "name": {
           "zh-CN": "浏览器",
-          "en-US": "Browser"
+          "en": "Browser"
         }
       },
       "tag-Tool": {
         "name": {
           "zh-CN": "工具",
-          "en-US": "Tool"
+          "en": "Tool"
         }
       },
       "tag-Multi_Media": {
         "name": {
           "zh-CN": "音视频",
-          "en-US": "Multi Media"
+          "en": "Multi Media"
         }
       },
       "tag-Development": {
         "name": {
           "zh-CN": "开发",
-          "en-US": "Development"
+          "en": "Development"
         }
     },
     "tag-Shopping": {
       "name": {
         "zh-CN": "购物",
-        "en-US": "Shopping"
+        "en": "Shopping"
       }
     },
     "tag-Music": {
       "name": {
         "zh-CN": "音乐",
-        "en-US": "Music"
+        "en": "Music"
       }
     },
     "tag-Video": {
       "name": {
         "zh-CN": "视频",
-        "en-US": "Video"
+        "en": "Video"
       }
     },
     "tag-Feed": {
       "name": {
         "zh-CN": "信息流",
-        "en-US": "Feed"
+        "en": "Feed"
       }
     },
     "tag-Cloud_Storage": {
       "name": {
         "zh-CN": "网盘",
-        "en-US": "Cloud Storage"
+        "en": "Cloud Storage"
       }
     },
     "tag-Map": {
       "name": {
         "zh-CN": "地图",
-        "en-US": "Map"
+        "en": "Map"
       }
     },
     "tag-Food_Delivery": {
       "name": {
         "zh-CN": "外卖",
-        "en-US": "Food Delivery"
+        "en": "Food Delivery"
       }
     },
     "tag-Courier": {
       "name": {
         "zh-CN": "快递",
-        "en-US": "Courier"
+        "en": "Courier"
+      }
+    },
+    "tag-Dict": {
+      "name": {
+        "zh-CN": "词典",
+        "en": "Dict"
+      }
+    },
+    "tag-Note": {
+      "name": {
+        "zh-CN": "笔记",
+        "en": "Note"
+      }
+    },
+    "tag-Study": {
+      "name": {
+        "zh-CN": "学习",
+        "en": "Studying"
+      }
+    },
+    "tag-Office": {
+      "name": {
+        "zh-CN": "办公",
+        "en": "Office"
+      }
+    },
+    "tag-Reading": {
+      "name": {
+        "zh-CN": "阅读",
+        "en": "Reading"
       }
     }
 }

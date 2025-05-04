@@ -68,9 +68,9 @@
 }
 
 .compilability_note{
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding:2px 3px;
 
     height: 28px;
     vertical-align: middle;

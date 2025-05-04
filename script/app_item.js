@@ -1,7 +1,5 @@
 const DEFAULT_APP_ICON = "/img/default_app_icon2.png";
-const SYSTEM =  {
-    language: "zh-CN"
-}
+
 
 const AppKeys = {
     NAME: "name",
@@ -32,7 +30,7 @@ function factory_page_item(page_data){
 
     widget.innerHTML = `
                         <div class="page_info">
-                            <div class="page_title">${page_data[PageKeys.NAME][SYSTEM.language]}</div>
+                            <div class="page_title">${safe_get_language_content(page_data[PageKeys.NAME])}</div>
                             <div class="page_url_content">${page_data[PageKeys.URL]}</div>
                         </div>
                         <div class="url_btn_group">
@@ -121,13 +119,13 @@ function factory_app_item(app_data){
         for (let tag_code of raw_tags_data){
             if (Object.keys(TAGS).includes(tag_code)){
                 // 如果是一个标签
-                tags.push(TAGS[tag_code].name[SYSTEM.language]);
+                tags.push(safe_get_language_content(TAGS[tag_code].name));
 
             }
         }
     }
 
-    let name = app_data[AppKeys.NAME][SYSTEM.language];
+    let name = safe_get_language_content(app_data[AppKeys.NAME]);
     let supported_platforms = app_data[AppKeys.PLATFORM];
     console.log("支持的：")
     console.log(supported_platforms);

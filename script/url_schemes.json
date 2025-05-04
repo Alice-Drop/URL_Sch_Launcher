@@ -653,7 +653,7 @@
       "name": {
          "zh-CN": "百度贴吧"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/baidu_tieba.png",
       "supported_platforms": [],
       "pages": [
@@ -669,7 +669,7 @@
       "name": {
          "zh-CN": "百度云"
       },
-      "tags": [],
+      "tags": ["tag-Cloud_Storage"],
       "icon": "https://img.alicedrop.site/baidu_cloud_disk.png",
       "supported_platforms": [],
       "pages": [
@@ -685,7 +685,7 @@
       "name": {
          "zh-CN": "百度音乐"
       },
-      "tags": [],
+      "tags": ["tag-Music"],
       "icon": "",
       "supported_platforms": ["shut_down"],
       "pages": [
@@ -781,7 +781,7 @@
       "name": {
          "zh-CN": "百度输入法"
       },
-      "tags": [],
+      "tags": ["tag-Tool"],
       "icon": "https://img.alicedrop.site/baidu_shurufa.png",
       "supported_platforms": [],
       "pages": [
@@ -797,7 +797,7 @@
       "name": {
          "zh-CN": "网易邮箱"
       },
-      "tags": [],
+      "tags": ["tag-Contact"],
       "icon": "https://img.alicedrop.site/netease_mail.png",
       "supported_platforms": [],
       "pages": [
@@ -813,7 +813,7 @@
       "name": {
          "zh-CN": "网易新闻"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/netease_news.png",
       "supported_platforms": [],
       "pages": [
@@ -829,7 +829,7 @@
       "name": {
          "zh-CN": "网易云音乐"
       },
-      "tags": [],
+      "tags": ["tag-Music"],
       "icon": "https://img.alicedrop.site/wangyiyun_music.png",
       "supported_platforms": [],
       "pages": [
@@ -845,7 +845,7 @@
       "name": {
          "zh-CN": "有道词典"
       },
-      "tags": [],
+      "tags": ["tag-Dict"],
       "icon": "https://img.alicedrop.site/youdao_dict.png",
       "supported_platforms": [],
       "pages": [
@@ -868,7 +868,7 @@
       "name": {
          "zh-CN": "有道云笔记"
       },
-      "tags": [],
+      "tags": ["tag-Note"],
       "icon": "https://img.alicedrop.site/youdao_note.png",
       "supported_platforms": [],
       "pages": [
@@ -884,7 +884,7 @@
       "name": {
          "zh-CN": "网易公开课"
       },
-      "tags": [],
+      "tags": ["tag-Study"],
       "icon": "https://img.alicedrop.site/netease_lesson.png",
       "supported_platforms": [],
       "pages": [
@@ -916,7 +916,7 @@
       "name": {
          "zh-CN": "美团"
       },
-      "tags": [],
+      "tags": ["tag-Food_Delivery"],
       "icon": "https://img.alicedrop.site/meituan.png",
       "supported_platforms": [],
       "pages": [
@@ -976,7 +976,7 @@
       "name": {
          "zh-CN": "京东"
       },
-      "tags": [],
+      "tags": ["tag-Shopping"],
       "icon": "https://img.alicedrop.site/jingdong.png",
       "supported_platforms": [],
       "pages": [
@@ -1000,7 +1000,7 @@
       },
       "tags": [],
       "icon": "https://img.alicedrop.site/jinritoutiao.png",
-      "supported_platforms": [],
+      "supported_platforms": ["tag-Feed"],
       "pages": [
          {
             "page_name": {
@@ -1014,7 +1014,7 @@
       "name": {
          "zh-CN": "高德地图"
       },
-      "tags": [],
+      "tags": ["tag-Map"],
       "icon": "https://img.alicedrop.site/gaodeditu.png",
       "supported_platforms": [],
       "pages": [
@@ -1036,7 +1036,7 @@
       "name": {
          "zh-CN": "新浪微博"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/weibo.png",
       "supported_platforms": [],
       "pages": [
@@ -1052,7 +1052,7 @@
       "name": {
          "zh-CN": "微博国际版"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1068,7 +1068,7 @@
       "name": {
          "zh-CN": "优酷"
       },
-      "tags": [],
+      "tags": ["tag-Video"],
       "icon": "https://img.alicedrop.site/youku.png",
       "supported_platforms": [],
       "pages": [
@@ -1084,7 +1084,7 @@
       "name": {
          "zh-CN": "爱奇艺"
       },
-      "tags": [],
+      "tags": ["tag-Video"],
       "icon": "https://img.alicedrop.site/iqiyi.png",
       "supported_platforms": [],
       "pages": [
@@ -1106,7 +1106,7 @@
       "name": {
          "zh-CN": "爱奇艺PPS"
       },
-      "tags": [],
+      "tags": ["tag-Video"],
       "icon": "",
       "supported_platforms": ["shut_down"],
       "pages": [
@@ -1122,7 +1122,7 @@
       "name": {
          "zh-CN": "土豆视频"
       },
-      "tags": [],
+      "tags": ["tag-Video"],
       "icon": "",
       "supported_platforms": ["shut_down"],
       "pages": [
@@ -1138,7 +1138,7 @@
       "name": {
          "zh-CN": "PPTV"
       },
-      "tags": [],
+      "tags": ["tag-Video"],
       "icon": "https://img.alicedrop.site/pptv.png",
       "supported_platforms": [],
       "pages": [
@@ -1154,8 +1154,8 @@
       "name": {
          "zh-CN": "暴风影音"
       },
-      "tags": [],
-      "icon": "https://img.alicedrop.site/baofeng_viedo.png",
+      "tags": ["tag-Video"],
+      "icon": "https://img.alicedrop.site/baofeng.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1170,7 +1170,7 @@
       "name": {
          "zh-CN": "搜狐视频"
       },
-      "tags": [],
+      "tags": ["tag-Video"],
       "icon": "https://img.alicedrop.site/souhu_video.png",
       "supported_platforms": [],
       "pages": [
@@ -1186,7 +1186,7 @@
       "name": {
          "zh-CN": "搜狐新闻"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/souhu_news.png",
       "supported_platforms": [],
       "pages": [
@@ -1202,7 +1202,7 @@
       "name": {
          "zh-CN": "虾米音乐"
       },
-      "tags": [],
+      "tags": ["tag-Music"],
       "icon": "",
       "supported_platforms": ["shut_down"],
       "pages": [
@@ -1218,7 +1218,7 @@
       "name": {
          "zh-CN": "酷我音乐"
       },
-      "tags": [],
+      "tags": ["tag-Music"],
       "icon": "https://img.alicedrop.site/kuwo_music.png",
       "supported_platforms": [],
       "pages": [
@@ -1234,7 +1234,7 @@
       "name": {
          "zh-CN": "酷狗音乐"
       },
-      "tags": [],
+      "tags": ["tag-Music"],
       "icon": "https://img.alicedrop.site/kugou_music.png",
       "supported_platforms": [],
       "pages": [
@@ -1250,7 +1250,7 @@
       "name": {
          "zh-CN": "天天动听"
       },
-      "tags": [],
+      "tags": ["tag-Music"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1298,7 +1298,7 @@
       "name": {
          "zh-CN": "chrome"
       },
-      "tags": [],
+      "tags": ["tag-Browser"],
       "icon": "https://img.alicedrop.site/chorme.png",
       "supported_platforms": [],
       "pages": [
@@ -1314,7 +1314,7 @@
       "name": {
          "zh-CN": "Gmail"
       },
-      "tags": [],
+      "tags": ["tag-Contact"],
       "icon": "https://img.alicedrop.site/gmail.png",
       "supported_platforms": [],
       "pages": [
@@ -1330,7 +1330,7 @@
       "name": {
          "zh-CN": "印象笔记"
       },
-      "tags": [],
+      "tags": ["tag-Note"],
       "icon": "https://img.alicedrop.site/yinxiang_note.png",
       "supported_platforms": [],
       "pages": [
@@ -1362,7 +1362,7 @@
       "name": {
          "zh-CN": "猎豹浏览器"
       },
-      "tags": [],
+      "tags": ["tag-Browser"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1378,7 +1378,7 @@
       "name": {
          "zh-CN": "UC浏览器"
       },
-      "tags": [],
+      "tags": ["tag-Browser"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1490,7 +1490,7 @@
       "name": {
          "zh-CN": "知乎"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/zhihu.png",
       "supported_platforms": [],
       "pages": [
@@ -1522,7 +1522,7 @@
       "name": {
          "zh-CN": "扫描全能王"
       },
-      "tags": [],
+      "tags": ["tag-Tool"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1570,7 +1570,7 @@
       "name": {
          "zh-CN": "WPS"
       },
-      "tags": [],
+      "tags": ["tag-Office"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1586,7 +1586,7 @@
       "name": {
          "zh-CN": "Line"
       },
-      "tags": [],
+      "tags": ["tag-Contact"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1635,7 +1635,7 @@
       "name": {
          "zh-CN": "nPlayer"
       },
-      "tags": [],
+      "tags": ["tag-Multi_Media"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1651,7 +1651,7 @@
       "name": {
          "zh-CN": "GPlayer"
       },
-      "tags": [],
+      "tags": ["tag-Multi_Media"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1667,7 +1667,7 @@
       "name": {
          "zh-CN": "AVPlayer"
       },
-      "tags": [],
+      "tags": ["tag-Multi_Media"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1699,7 +1699,7 @@
       "name": {
          "zh-CN": "金山词霸"
       },
-      "tags": [],
+      "tags": ["tag-Dict"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1715,7 +1715,7 @@
       "name": {
          "zh-CN": "凤凰新闻"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
@@ -1747,7 +1747,7 @@
       "name": {
          "zh-CN": "飞信"
       },
-      "tags": [],
+      "tags": ["tag-Contact"],
       "icon": "",
       "supported_platforms": [],
       "pages": [

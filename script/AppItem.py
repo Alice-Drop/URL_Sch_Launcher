@@ -7,7 +7,7 @@ class AppKeys:
     TAGS = "tags"
     PLATFORM = "supported_platform"
     
-class SYSTEM:
+class System:
     LANGUAGE = "zh-CN",
     PATH = "./url_schemes.json"
     
