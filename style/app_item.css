@@ -76,11 +76,25 @@
     vertical-align: middle;
 
     color: black;
-    font-size: 15px;
 
 
-
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
 }
+
+.compilability_note *{
+    /*todo:未来要修复这里，把已关闭的提示的生成正规化*/
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.compilability_note *{
+    margin: 0 5px;
+}
+
 
 .icon_comp_checked{
     height: 13px;

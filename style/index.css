@@ -36,7 +36,7 @@ img{
     padding: 10px 0;
 }
 
-#project_title{
+#project_title_placer{
     font-size: 20px;
     font-weight: bold;
     width: 90%;
@@ -46,15 +46,24 @@ img{
     align-items: center;
 }
 
-#project_title span{
-    margin: 0 10px;
+#project_title_placer span{
+    /*margin: 0 10px;*/
 }
+
+
 
 #project_icon{
     height: 40px;
     border-radius: 10px;
     user-select: none;
 }
+
+#project_title{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
 
 /* 搜索框相关 */
 #search{

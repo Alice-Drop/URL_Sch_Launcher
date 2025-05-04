@@ -29,7 +29,7 @@ function factory_page_item(page_data){
     let widget = document.createElement("div");
     widget.classList.add("page_item");
 
-    console.log(page_data)
+    //console.log(page_data)
     let shortcut = page_data[PageKeys.SHORTCUTS];
 
     widget.innerHTML = `

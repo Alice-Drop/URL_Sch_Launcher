@@ -270,7 +270,8 @@
             "page_name": {
                "zh-CN": "淘宝网"
             },
-            "page_url": "taobao://"
+            "page_url": "taobao://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/d8598f660cc7491195f90febea6b2d79"
          },
          {
             "page_name": {
@@ -356,7 +357,8 @@
             "page_name": {
                "zh-CN": "QQ音乐"
             },
-            "page_url": "qqmusic://"
+            "page_url": "qqmusic://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/9f58daab0c1148ae9bcca9532aaa8860"
          },
          {
             "page_name": {
@@ -496,17 +498,17 @@
    },
    "app_16": {
       "name": {
-         "zh-CN": ""
+         "zh-CN": "哔哩哔哩"
       },
-      "tags": [],
+      "tags": ["tag-Feed","tag-Video"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
          {
             "page_name": {
-               "zh-CN": ""
+               "zh-CN": "哔哩哔哩"
             },
-            "page_url": ""
+            "page_url": "bilibili://"
          }
       ]
    },
@@ -514,7 +516,7 @@
       "name": {
          "zh-CN": "腾讯手机管家"
       },
-      "tags": [],
+      "tags": ["tag-Tool"],
       "icon": "https://img.alicedrop.site/tencent_secure.png",
       "supported_platforms": [],
       "pages": [
@@ -544,33 +546,34 @@
    },
    "app_19": {
       "name": {
-         "zh-CN": ""
+         "zh-CN": "小红书"
       },
-      "tags": [],
-      "icon": "",
+      "tags": ["tag-Feed"],
+      "icon": "https://img.alicedrop.site/red_book.png",
       "supported_platforms": [],
       "pages": [
          {
             "page_name": {
-               "zh-CN": ""
+               "zh-CN": "小红书"
             },
-            "page_url": ""
+            "page_url": "xhsdiscover://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/7c3aee3022984d22a4aed1eea40be97e"
          }
       ]
    },
    "app_20": {
       "name": {
-         "zh-CN": ""
+         "zh-CN": "闲鱼"
       },
-      "tags": [],
+      "tags": ["tag_Shopping"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
          {
             "page_name": {
-               "zh-CN": ""
+               "zh-CN": "闲鱼"
             },
-            "page_url": ""
+            "page_url": "fleamarket://"
          }
       ]
    },
@@ -592,7 +595,7 @@
    },
    "app_22": {
       "name": {
-         "zh-CN": ""
+         "zh-CN": "抖音"
       },
       "tags": [],
       "icon": "",
@@ -600,9 +603,9 @@
       "pages": [
          {
             "page_name": {
-               "zh-CN": ""
+               "zh-CN": "抖音"
             },
-            "page_url": ""
+            "page_url": "snssdk1128://"
          }
       ]
    },
@@ -722,17 +725,17 @@
    },
    "app_30": {
       "name": {
-         "zh-CN": ""
+         "zh-CN": "拼多多"
       },
-      "tags": [],
+      "tags": ["tag-Shopping"],
       "icon": "",
       "supported_platforms": [],
       "pages": [
          {
             "page_name": {
-               "zh-CN": ""
+               "zh-CN": "拼多多"
             },
-            "page_url": ""
+            "page_url": "pinduoduo://"
          }
       ]
    },
@@ -893,7 +896,7 @@
          "zh-CN": "网易公开课"
       },
       "tags": ["tag-Study"],
-      "icon": "https://img.alicedrop.site/netease_lesson.png",
+      "icon": "https://img.alicedrop.site/netease_lessons.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1007,9 +1010,9 @@
       "name": {
          "zh-CN": "今日头条"
       },
-      "tags": [],
+      "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/jinritoutiao.png",
-      "supported_platforms": ["tag-Feed"],
+      "supported_platforms": [],
       "pages": [
          {
             "page_name": {
@@ -1167,7 +1170,7 @@
          "zh-CN": "暴风影音"
       },
       "tags": ["tag-Video"],
-      "icon": "https://img.alicedrop.site/baofeng.png",
+      "icon": "https://img.alicedrop.site/baofeng_video.png",
       "supported_platforms": [],
       "pages": [
          {
@@ -1591,7 +1594,7 @@
             "page_name": {
                "zh-CN": "WPS"
             },
-            "page_url": "Office"
+            "page_url": "KingsoftOfficeApp://"
          }
       ]
    },
