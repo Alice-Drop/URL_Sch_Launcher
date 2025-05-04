@@ -109,7 +109,7 @@ URL Scheme是一种可以直接跳转到应用里的页面的链接。
 比如说，<a class="std_link" href="weixin://">weixin://</a>这个链接可以直接跳转到这台设备上上安装的微信（手机/电脑都可以）。可以点击试试！
 利用这个，可以快速打开某个页面，甚至把直接跳转到应用内部的链接放到桌面，用这个链接打开一些应用就不会出现开屏广告。
 目前，IOS系统对此的支持较好，部分链接在其它平台会无效。
-添加跳转到桌面的功能正在开发，IOS可以使用系统快捷指令，但安卓和电脑端的实现方法正在研究。
+添加跳转到桌面的功能，已经实现IOS一键添加到系统快捷指令，但安卓和电脑端的实现方法正在研究。
 <a class="std_link" href="https://github.com/Alice-Drop/URL_Sch_Launcher">Github页面</a>
 <a class="std_link" href="https://www.wjx.top/vm/tZaCXjo.aspx">提交反馈</a>
         `
