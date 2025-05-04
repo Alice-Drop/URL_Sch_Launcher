@@ -11,7 +11,8 @@ const AppKeys = {
 
 const PageKeys = {
     NAME: "page_name",
-    URL: "page_url"
+    URL: "page_url",
+    SHORTCUTS: "shortcuts_url"
 }
 
 const SupportedPlatform = {
@@ -27,6 +28,9 @@ function factory_page_item(page_data){
 
     let widget = document.createElement("div");
     widget.classList.add("page_item");
+
+    console.log(page_data)
+    let shortcut = page_data[PageKeys.SHORTCUTS];
 
     widget.innerHTML = `
                         <div class="page_info">
@@ -45,6 +49,16 @@ function factory_page_item(page_data){
                         </div>
     `
     widget.classList.add("folded"); // 添加这个，用来默认让应用的url折叠
+
+    let btn_create_shortcut = widget.getElementsByClassName("btn_create_shortcut")[0]
+    if (shortcut){
+        btn_create_shortcut.addEventListener("click", function () {
+            window.open(shortcut)
+        });
+    }else{
+        btn_create_shortcut.classList.add("hidden");
+    }
+
     widget.addEventListener("click", (event)=>{
         let self = event.currentTarget;
         let clicked_part = event.target;
@@ -79,9 +93,7 @@ function factory_compatibility_note(supported_platform){
         <img class="icon_comp_checked" src="/img/complicated.svg" alt="icon-compilability" />
     `
     if (supported_platform.length > 0){
-        console.log(supported_platform)
         if (!supported_platform.includes(SupportedPlatform.PC)){
-            console.log("不包含PC")
             widget.getElementsByClassName("icon_comp_pc")[0].classList.add("hidden");
         }
         if (!supported_platform.includes(SupportedPlatform.IOS)){
@@ -97,7 +109,7 @@ function factory_compatibility_note(supported_platform){
         }
 
     }else {
-        console.log("内容为空")
+        //console.log("内容为空")
         widget.getElementsByClassName("icon_comp_pc")[0].classList.add("hidden");
         widget.getElementsByClassName("icon_comp_ios")[0].classList.add("hidden");
         widget.getElementsByClassName("icon_comp_android")[0].classList.add("hidden");
@@ -111,7 +123,7 @@ function factory_app_item(app_data){
     let pages = app_data[AppKeys.PAGES];
     let raw_tags_data = app_data[AppKeys.TAGS];
     let tags = [];
-    console.log(app_data)
+    //console.log(app_data)
 
 
 
@@ -127,8 +139,8 @@ function factory_app_item(app_data){
 
     let name = safe_get_language_content(app_data[AppKeys.NAME]);
     let supported_platforms = app_data[AppKeys.PLATFORM];
-    console.log("支持的：")
-    console.log(supported_platforms);
+    //console.log("支持的：")
+    //console.log(supported_platforms);
 
     let icon = app_data[AppKeys.ICON];
     if (!icon){

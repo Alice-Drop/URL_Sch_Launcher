@@ -51,8 +51,7 @@
             "page_name": {
                "zh-CN": "支付宝"
             },
-            "page_url": "alipays://",
-            "shortcuts_url": "https://www.icloud.com/shortcuts/abcab4a193bc47cfae43c0d5d245a35f"
+            "page_url": "alipays://"
          },
          {
             "page_name": {
@@ -164,8 +163,7 @@
             "page_name": {
                "zh-CN": "微信"
             },
-            "page_url": "weixin://",
-            "shortcuts_url": "https://www.icloud.com/shortcuts/c644a5fe33824667827d06dc87730a61"
+            "page_url": "weixin://"
          },
          {
             "page_name": {
@@ -253,8 +251,7 @@
             "page_name": {
                "zh-CN": "钉钉"
             },
-            "page_url": "dingtalk://",
-            "shortcuts_url": "https://www.icloud.com/shortcuts/99083c028c3c45238912b253a5c77b74"
+            "page_url": "dingtalk://"
          }
       ]
    },
@@ -925,16 +922,15 @@
       "pages": [
          {
             "page_name": {
-               "zh-CN": "美团"
-            },
-            "page_url": "imeituan://",
-            "shortcuts_url": "https://www.icloud.com/shortcuts/09b1060de5cc4773841667d4191be77b"
-         },
-         {
-            "page_name": {
                "zh-CN": "美团外卖"
             },
             "page_url": "meituanwaimai://"
+         },
+         {
+            "page_name": {
+               "zh-CN": "美团"
+            },
+            "page_url": "imeituan://"
          }
       ]
    },
@@ -1026,8 +1022,7 @@
             "page_name": {
                "zh-CN": "ios高德地图"
             },
-            "page_url": "iosamap://",
-            "shortcuts_url": "https://www.icloud.com/shortcuts/9366db8b00a645d891f7f2a4b84272d7" 
+            "page_url": "iosamap://"
          },
          {
             "page_name": {
