@@ -304,7 +304,8 @@
             "page_name": {
                "zh-CN": "天猫"
             },
-            "page_url": "tmall://"
+            "page_url": "tmall://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/0d6b7a7789b542cca79ccaf0c49f936e"
          }
       ]
    },
@@ -320,7 +321,8 @@
             "page_name": {
                "zh-CN": "QQ"
             },
-            "page_url": "mqq://"
+            "page_url": "mqq://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/47292314c00041a1966c090e81ad6c32"
          },
          {
             "page_name": {
@@ -680,7 +682,8 @@
             "page_name": {
                "zh-CN": "百度云"
             },
-            "page_url": "baiduyun://"
+            "page_url": "baiduyun://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/6820969dfe144ba78e3dc5a1cba2ee3e"
          }
       ]
    },
@@ -840,7 +843,8 @@
             "page_name": {
                "zh-CN": "网易云音乐"
             },
-            "page_url": "orpheuswidget://"
+            "page_url": "orpheuswidget://",
+            "shortcuts_url":"https://www.icloud.com/shortcuts/d434595246f943edbde4257ce6a33542"
          }
       ]
    },
@@ -1049,7 +1053,8 @@
             "page_name": {
                "zh-CN": "新浪微博"
             },
-            "page_url": "weibo://"
+            "page_url": "weibo://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/c7784d347f0f43bba73038c39dc5a5fd"
          }
       ]
    },
@@ -1097,7 +1102,8 @@
             "page_name": {
                "zh-CN": "爱奇艺"
             },
-            "page_url": "iqiyi://"
+            "page_url": "iqiyi://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/78aa4bab816a4787a1de17566e3b5186"
          },
          {
             "page_name": {
@@ -1247,7 +1253,8 @@
             "page_name": {
                "zh-CN": "酷狗音乐"
             },
-            "page_url": "kugouURL://"
+            "page_url": "kugouURL://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/2a3539970561400dba994ee387d93fb6"
          }
       ]
    },
@@ -1888,7 +1895,8 @@
             "page_name": {
                "zh-CN": "陌陌"
             },
-            "page_url": "momochat://"
+            "page_url": "momochat://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/8232ea231ccd41818bccbd69ce5ca6ef"
          }
       ]
    },
