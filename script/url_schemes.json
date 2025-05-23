@@ -412,7 +412,8 @@
             "page_name": {
                "zh-CN": "菜鸟"
             },
-            "page_url": "cainiao://"
+            "page_url": "cainiao://",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/daa21686c0134f5282e97bf11f51cb3d"
          }
       ]
    },
@@ -508,7 +509,8 @@
             "page_name": {
                "zh-CN": "哔哩哔哩"
             },
-            "page_url": "bilibili://"
+            "page_url": "bilibili://",
+            "shortcuts_url" : "https://www.icloud.com/shortcuts/39accc2d1edf4b83aaf44674b23d9d2b"
          }
       ]
    },
