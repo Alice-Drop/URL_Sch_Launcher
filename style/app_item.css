@@ -95,6 +95,10 @@
     margin: 0 5px;
 }
 
+.compilability_note img{
+    width: 20px;
+}
+
 
 .icon_comp_checked{
     height: 13px;

@@ -158,7 +158,7 @@
       },
       "tags": ["tag-Contact"],
       "icon": "https://img.alicedrop.site/weixin.png",
-      "supported_platforms": ["android", "ios"],
+      "supported_platforms": ["android", "ios", "pc"],
       "pages": [
          {
             "page_name": {
@@ -171,73 +171,15 @@
             "page_name": {
                "zh-CN": "微信-扫一扫"
             },
-            "page_url": "weixin://dl/scan"
+            "page_url": "weixin://widget/scan",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/f811522bb4a644b0bfa9144f65f21578"
          },
          {
             "page_name": {
-               "zh-CN": "微信-反馈"
+               "zh-CN": "微信-付款码"
             },
-            "page_url": "weixin://dl/feedback"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-朋友圈"
-            },
-            "page_url": "weixin://dl/moments"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-设置"
-            },
-            "page_url": "weixin://dl/settings"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-消息通知设置"
-            },
-            "page_url": "weixin://dl/notifications"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-聊天设置"
-            },
-            "page_url": "weixin://dl/chat"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-通用设置"
-            },
-            "page_url": "weixin://dl/general"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-公众号"
-            },
-            "page_url": "weixin://dl/officialaccounts"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-游戏"
-            },
-            "page_url": "weixin://dl/games"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-帮助"
-            },
-            "page_url": "weixin://dl/help"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-个人信息"
-            },
-            "page_url": "weixin://dl/profile"
-         },
-         {
-            "page_name": {
-               "zh-CN": "微信-功能插件"
-            },
-            "page_url": "weixin://dl/features"
+            "page_url": "weixin://widget/pay",
+            "shortcuts_url": "https://www.icloud.com/shortcuts/afc4680d6a75453c9d6ae05bd1c1436e"
          }
       ]
    },
@@ -247,7 +189,7 @@
       },
       "tags": ["tag-Contact", "tag-Efficiency"],
       "icon": "https://img.alicedrop.site/dingding.png",
-      "supported_platforms": [],
+      "supported_platforms": ["android", "ios"],
       "pages": [
          {
             "page_name": {
@@ -264,7 +206,7 @@
       },
       "tags": ["tag-Shopping"],
       "icon": "https://img.alicedrop.site/taobao.png",
-      "supported_platforms": [],
+      "supported_platforms": ["android", "ios"],
       "pages": [
          {
             "page_name": {
@@ -299,7 +241,7 @@
       },
       "tags": ["tag-Shopping"],
       "icon": "https://img.alicedrop.site/tianmao.png",
-      "supported_platforms": [],
+      "supported_platforms": ["android", "ios"],
       "pages": [
          {
             "page_name": {
@@ -503,7 +445,7 @@
       },
       "tags": ["tag-Feed","tag-Video"],
       "icon": "https://img.alicedrop.site/bilibili.png",
-      "supported_platforms": [],
+      "supported_platforms": ["android", "ios"],
       "pages": [
          {
             "page_name": {
@@ -552,7 +494,7 @@
       },
       "tags": ["tag-Feed"],
       "icon": "https://img.alicedrop.site/red_book.png",
-      "supported_platforms": [],
+      "supported_platforms": ["ios"],
       "pages": [
          {
             "page_name": {
@@ -568,8 +510,8 @@
          "zh-CN": "闲鱼"
       },
       "tags": ["tag_Shopping"],
-      "icon": "",
-      "supported_platforms": [],
+      "icon": "https://img.alicedrop.site/fleamarket.png",
+      "supported_platforms": ["android", "ios"],
       "pages": [
          {
             "page_name": {
@@ -992,13 +934,13 @@
       },
       "tags": ["tag-Shopping"],
       "icon": "https://img.alicedrop.site/jingdong.png",
-      "supported_platforms": [],
+      "supported_platforms": ["android", "ios"],
       "pages": [
          {
             "page_name": {
                "zh-CN": "京东"
             },
-            "page_url": "jd://"
+            "page_url": "openjd://"
          },
          {
             "page_name": {
@@ -1030,7 +972,7 @@
       },
       "tags": ["tag-Map"],
       "icon": "https://img.alicedrop.site/gaodeditu.png",
-      "supported_platforms": [],
+      "supported_platforms": ["ios"],
       "pages": [
          {
             "page_name": {
@@ -1038,13 +980,8 @@
             },
             "page_url": "iosamap://",
             "shortcuts_url": "https://www.icloud.com/shortcuts/9366db8b00a645d891f7f2a4b84272d7" 
-         },
-         {
-            "page_name": {
-               "zh-CN": "安卓高德地图"
-            },
-            "page_url": "amap://"
          }
+         
       ]
    },
    "app_48": {
@@ -1059,8 +996,8 @@
             "page_name": {
                "zh-CN": "新浪微博"
             },
-            "page_url": "weibo://",
-            "shortcuts_url": "https://www.icloud.com/shortcuts/c7784d347f0f43bba73038c39dc5a5fd"
+            "page_url": "sinaweibo://",
+            "shortcuts_url": ""
          }
       ]
    },

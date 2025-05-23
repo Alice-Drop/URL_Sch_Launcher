@@ -105,7 +105,10 @@ function factory_compatibility_note(supported_platform){
 
         if (supported_platform.includes(SupportedPlatform.SHUT_DOWN)){
             widget.getElementsByClassName("icon_comp_checked")[0].setAttribute("src", "./img/shut_down.svg")
+            widget.getElementsByClassName("icon_comp_checked")[0].classList.remove("hidden")
             widget.innerHTML += "软件已被关闭"
+        }else{
+            widget.getElementsByClassName("icon_comp_checked")[0].classList.add("hidden")  // 新版显示方案，那个勾勾已经包括在各个平台里面了
         }
 
     }else {
