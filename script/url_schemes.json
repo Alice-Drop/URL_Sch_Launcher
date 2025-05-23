@@ -502,7 +502,7 @@
          "zh-CN": "哔哩哔哩"
       },
       "tags": ["tag-Feed","tag-Video"],
-      "icon": "",
+      "icon": "https://img.alicedrop.site/bilibili.png",
       "supported_platforms": [],
       "pages": [
          {
